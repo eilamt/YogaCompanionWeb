@@ -1,0 +1,111 @@
+# ============================================================
+# Asana — Eka Pada Adho Mukha Svanasana (Three-Legged Down Dog)
+# Yoga Maya curriculum
+#
+# Canonical orientation: RIGHT LEG LIFTED. All cues describe this
+# side. The renderer mirrors right ↔ left to produce the second-side
+# display (left leg lifted).
+# ============================================================
+
+meta:
+  id: eka_pada_adho_mukha_svanasana
+  version: 6
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-11
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: एक पाद अधो मुख श्वानासन
+    transliteration: Eka Pāda Adho Mukha Śvānāsana
+  etymology:
+    - root: eka
+      meaning: one
+    - root: pada
+      meaning: foot / leg
+    - root: adho
+      meaning: downward
+    - root: mukha
+      meaning: face
+    - root: shvana
+      meaning: dog
+    - root: asana
+      meaning: pose / posture
+  english_name: Three-Legged Downward-Facing Dog
+  pronunciation: EH-kuh PAH-dah AH-doh MOO-kah shvah-NAHS-uh-nuh
+
+classification:
+  primary_class: Inversion
+  secondary_class: Forward Bend
+  sides: two
+  anatomy:
+    - Hip flexion (deep, standing leg)
+    - Hip extension (lifted leg)
+    - Knee extension (both legs)
+    - Hip flexor stretch (lifted leg)
+    - Gluteus maximus engagement (lifted leg)
+    - Gluteus medius engagement (standing leg, stabilizing)
+    - Shoulder flexion (arms overhead, weight-bearing)
+    - Scapular upward rotation
+    - Wrist extension (weight-bearing)
+    - Ankle dorsiflexion (standing leg)
+    - Hamstring stretch (standing leg)
+    - Gastrocnemius stretch (standing leg)
+    - Erector spinae engagement
+    - Core engagement (to keep hips level)
+
+practice:
+  entry_cues:
+    - from: adho_mukha_svanasana
+      steps:
+        - Lift your right leg up and back
+        - Reach through your right heel
+        - Keep your hips level — left hip presses down as the right leg lifts
+
+  hold_exploration:
+    - label: Stacked-hip variation (Open-Hip Three-Legged Dog)
+      steps:
+        - Bend your right knee and stack your right hip over your left
+        - Spin your right heel in toward your seat
+        - Look under your left armpit
+        - Straighten your right leg and re-level your hips to return
+
+  exit_cues:
+    - to: adho_mukha_svanasana
+      steps:
+        - Lower your right leg back down to the mat
+
+  suggested_hold_duration: 3–5 breaths
+
+accessibility:
+  - condition: Tight hip flexors / can't lift the leg high
+    modifications:
+      - Lift the leg only as high as comfortable — height is not the goal
+      - Keep both feet on the mat and just shift weight, building toward the lift
+
+  - condition: Balance challenges
+    modifications:
+      - Slightly bend the standing knee for stability
+      - Keep the lifted leg low to maintain a solid base
+
+  - condition: Wrist pain or weight-bearing limitation
+    modifications:
+      - Make fists and rest on the knuckles to keep the wrists neutral
+      - Skip and explore the leg lift from Tabletop instead
+
+variations:
+  - description: round your spine and draw your right knee toward your nose to prepare for Chaturanga or jump-through
+  - description: draw your right knee toward your right elbow as a Side Crow prep
+  - description: draw your right knee across to your left elbow for a cross-body core challenge
+
+relationships:
+  entry_transitions:
+    - adho_mukha_svanasana
+  exit_transitions:
+    - adho_mukha_svanasana
+
+media:
+  images:
+    - path: images/eka_pada_adho_mukha_svanasana/main.jpg
+      alt: Practitioner in Three-Legged Down Dog with the right leg lifted high, hips level, body in an inverted V shape

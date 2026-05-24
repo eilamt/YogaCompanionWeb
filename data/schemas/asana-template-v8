@@ -1,0 +1,168 @@
+# ============================================================
+# Asana Template — v8
+# Save as: data/asanas/<id>.yaml
+#
+# CHANGES from v7:
+# - New optional `mirror` boolean field on each entry_cues /
+#   exit_cues alternative. When true, indicates a side-swapping
+#   transition: the practitioner ends in the mirror of the
+#   destination pose's canonical (for exit_cues), or started in
+#   the mirror of the source pose's canonical (for entry_cues).
+#   When absent or false, the transition is side-preserving.
+#   Only meaningful when both source and destination are
+#   `classification.sides: two`. See transition-rules.md, Rule 2.
+# - Source and destination YAMLs must agree on the mirror flag for
+#   a given transition. If pose_A's exit to pose_B is mirror: true,
+#   then pose_B's entry from pose_A (if authored) must also be
+#   mirror: true.
+# - The `mirror` flag does NOT apply to
+#   `relationships.entry_transitions` / `exit_transitions` —
+#   those remain graph topology only.
+# ============================================================
+
+meta:
+  id:                    # stable identifier, lowercase snake_case
+                         # (e.g., dhanurasana, low_lunge)
+  version: 8             # schema version this entry conforms to
+  status: draft          # draft | reviewed | published
+  author:                # contributor name
+  last_reviewed:         # YYYY-MM-DD
+  source: Yoga Maya curriculum
+
+identity:
+  # At least one of `sanskrit_name` or `english_name` must be populated.
+  # The other may be left empty when the pose has no equivalent in that
+  # naming tradition. `etymology` and `pronunciation` apply to the
+  # Sanskrit name and should be left empty when no Sanskrit name exists.
+  sanskrit_name:
+    devanagari:          # optional; e.g., धनुरासन
+    transliteration:     # optional; e.g., Dhanurāsana
+  etymology: []          # optional; list of root → meaning pairs
+                         # Example entry:
+                         #   - root: dhanu
+                         #     meaning: bow
+                         #   - root: asana
+                         #     meaning: pose / posture
+  english_name:          # optional; primary English name (e.g., Bow Pose)
+  pronunciation:         # optional; phonetic guide for the Sanskrit name
+                         # (e.g., dah-noor-AHS-uh-nuh)
+
+classification:
+  # Primary class — exactly one of:
+  #   Open Standing Pose | Neutral Standing Pose | Standing Twist |
+  #   Seated Twist | Core Work | Arm Balance | Inversion |
+  #   Forward Bend | Seated Forward Bend | Back Bend | Side Bend
+  primary_class:
+  secondary_class:       # optional; same closed list as above
+
+  # Symmetry — required.
+  #   one — symmetric pose, practiced once (e.g., Balasana, Bhujangasana).
+  #         Cues are used as authored.
+  #   two — asymmetric pose, practiced on each side (e.g., Low Lunge,
+  #         Warrior II). Cues are authored from a single canonical
+  #         orientation, and the renderer mirrors right ↔ left to
+  #         produce the second-side display.
+  sides:                 # one | two
+
+  # Difficulty — required. Inherent difficulty of the pose itself.
+  #   beginner     — accessible to most practitioners on day one
+  #   intermediate — requires some accumulated strength, flexibility,
+  #                  or proprioceptive familiarity
+  #   advanced     — requires significant strength, mobility, or skill
+  difficulty:            # beginner | intermediate | advanced
+
+  anatomy:               # list of body-area + action items, using anatomical terms
+    -                    # e.g., Hamstring stretch
+    -                    # e.g., Hip extension
+
+practice:
+  # Entry — alternative paths into the pose. Each alternative has:
+  #   - `from`     (required): snake_case id of source pose
+  #   - `label`    (optional): distinguish alternatives from the same `from`
+  #   - `level`    (optional): beginner | intermediate | advanced;
+  #                            inherits `classification.difficulty` if absent
+  #   - `mirror`   (optional): true when this is a side-swapping transition
+  #                            (see transition-rules.md, Rule 2)
+  #   - `steps`    (required): ordered list of cue steps, intuitive
+  #                            active-voice language addressed to the practitioner
+  entry_cues:
+    - from:              # snake_case id; e.g., tadasana
+      label:             # optional; e.g., "Vinyasa entry"
+      level:             # optional; beginner | intermediate | advanced
+      mirror:            # optional; true if side-swapping
+      steps:
+        -                # e.g., Step the right foot back
+        -                # e.g., Bend the front knee
+
+  # Alternative explorations to investigate while in the pose.
+  # Each entry is one discrete option with a short label and an
+  # ordered list of steps. A pose with only one exploration has
+  # a single entry. Steps use intuitive, active-voice language
+  # (or question form) — not clinical/anatomical terms.
+  hold_exploration:
+    - label:             # e.g., Thread the needle
+      steps:
+        -                # e.g., Walk both hands over to the right
+        -                # e.g., Thread your left arm underneath your right armpit
+    - label:
+      steps:
+        -
+        -
+
+  # Exit — alternative paths out of the pose. Each alternative has:
+  #   - `to`       (required): snake_case id of destination pose
+  #   - `label`    (optional): distinguish alternatives to the same `to`
+  #   - `level`    (optional): beginner | intermediate | advanced;
+  #                            inherits `classification.difficulty` if absent
+  #   - `mirror`   (optional): true when this is a side-swapping transition
+  #                            (see transition-rules.md, Rule 2)
+  #   - `steps`    (required): ordered list of cue steps, intuitive
+  #                            active-voice language addressed to the practitioner
+  exit_cues:
+    - to:                # snake_case id; e.g., adho_mukha_svanasana
+      label:             # optional
+      level:             # optional; beginner | intermediate | advanced
+      mirror:            # optional; true if side-swapping
+      steps:
+        -                # e.g., Press back into Downward-Facing Dog
+
+  suggested_hold_duration:   # free text (e.g., 5 breaths, 30 seconds)
+
+# Conditions that may limit access; each carries up to 3 modifications.
+# A modification may use a prop (block, rope, blanket, chair, wall)
+# or may be "skip and do <alternative pose> instead".
+accessibility:
+  - condition:           # e.g., Tight hamstrings
+    modifications:
+      -                  # e.g., Bend the front knee deeply
+      -                  # e.g., Place a block under the front hand
+      -                  # e.g., Skip and do Ardha Uttanasana instead
+
+# Upgrades — options that progress the pose / make it harder.
+# Each variation has:
+#   - `description` (required): what the variation is or does.
+#   - `id` (optional): snake_case id of a first-class asana, when the
+#     variation is itself a standalone pose. Enables a tap-through link
+#     from the variation to the full pose page.
+# Variations without an `id` are pure modifications (no separate page).
+variations:
+  - id:                  # optional; e.g., anuvittasana
+    description:         # required; e.g., "lean back into a gentle standing back bend"
+  - description:         # variation with no `id` — pure modification
+
+# Pose graph for the sequencing engine (later epic). Entries are
+# snake_case ids referencing first-class asanas. The `mirror` flag
+# from entry_cues / exit_cues does NOT propagate here — relationships
+# are graph topology only.
+relationships:
+  entry_transitions:     # snake_case ids of poses this commonly comes from
+    -                    # e.g., tadasana
+    -
+  exit_transitions:      # snake_case ids of poses this commonly leads to
+    -                    # e.g., uttanasana
+    -
+
+media:
+  images:
+    - path:              # relative path, e.g., images/dhanurasana/main.jpg
+      alt:               # alt text for web accessibility

@@ -1,0 +1,104 @@
+# ============================================================
+# Ardha Chandra Chapasana — Sugarcane Pose
+# Schema: v7
+# Canonical orientation: right foot grounded, left leg lifted and
+# bent back, left hand catching the outside of the left foot.
+# The renderer mirrors right ↔ left to produce the second-side display.
+# ============================================================
+
+meta:
+  id: ardha_chandra_chapasana
+  version: 7
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: अर्ध चन्द्र चपासन
+    transliteration: Ardha Chandra Chapāsana
+  etymology:
+    - root: ardha
+      meaning: half
+    - root: chandra
+      meaning: moon
+    - root: chapa
+      meaning: bow
+    - root: asana
+      meaning: pose / posture
+  english_name: Sugarcane Pose
+  pronunciation: AR-duh CHUN-druh chuh-PAH-suh-nuh
+
+classification:
+  primary_class: Open Standing Pose
+  secondary_class: Back Bend
+  sides: two
+  difficulty: intermediate
+  anatomy:
+    - Hip abduction (lifted leg)
+    - Knee flexion (lifted leg)
+    - Quadriceps stretch (lifted leg)
+    - Hamstring stretch (standing leg)
+    - Quadriceps engagement (standing leg)
+    - Hip stabilization (standing leg)
+    - Ankle stabilization (standing leg)
+    - Shoulder extension (top arm)
+    - Thoracic extension
+
+practice:
+  entry_cues:
+    - from: ardha_chandrasana
+      steps:
+        - Lift your left leg even higher
+        - Bend your left knee, drawing the heel toward your glute
+        - Reach your left hand back behind you
+        - Catch hold of the outside of your left foot or ankle
+        - Press your foot into your hand to expand your chest forward and up
+
+  hold_exploration:
+    - label: Deepen the chest opening
+      steps:
+        - Press your foot more firmly into your hand
+        - Let the kick of your foot open your chest further toward the sky
+        - If your neck is happy, turn your gaze up toward your lifted foot
+
+  exit_cues:
+    - to: ardha_chandrasana
+      steps:
+        - Release your left foot from your left hand
+        - Straighten your left leg back to parallel with the floor
+        - Reach your left arm up to the sky
+
+  suggested_hold_duration: 3–5 breaths
+
+accessibility:
+  - condition: Tight quadriceps (can't catch the foot)
+    modifications:
+      - Loop a strap around your left foot and hold the strap with your left hand
+      - Stay in Ardha Chandrasana and skip the catch
+      - Lift your leg lower and bend the knee less — work toward the catch over time
+
+  - condition: Tight shoulders (can't reach the foot)
+    modifications:
+      - Loop a strap around your left foot and walk your hand down the strap
+      - Stay in Ardha Chandrasana and skip the catch
+
+  - condition: Balance challenges
+    modifications:
+      - Practice with your back near a wall, lifted heel light against the wall
+      - Place your bottom hand on a block for a wider, more stable base
+      - Keep your gaze on the floor rather than turning it up
+
+variations: []
+
+relationships:
+  entry_transitions:
+    - ardha_chandrasana
+  exit_transitions:
+    - ardha_chandrasana
+
+media:
+  images:
+    - path: images/ardha_chandra_chapasana/main.jpg
+      alt: Sugarcane Pose with the left foot caught by the left hand behind the back

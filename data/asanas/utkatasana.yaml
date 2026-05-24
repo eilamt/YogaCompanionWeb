@@ -1,0 +1,149 @@
+# ============================================================
+# Utkatasana — Chair Pose
+# Schema: v8
+# Symmetric pose (sides: one). Feet together (or hip-width),
+# knees bent deeply, hips sinking back as if sitting in a chair,
+# arms reaching overhead.
+# ============================================================
+
+meta:
+  id: utkatasana
+  version: 8
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: उत्कटासन
+    transliteration: Utkaṭāsana
+  etymology:
+    - root: utkata
+      meaning: fierce / powerful / intense
+    - root: asana
+      meaning: pose / posture
+  english_name: Chair Pose
+  pronunciation: oot-kah-TAH-suh-nuh
+
+classification:
+  primary_class: Neutral Standing Pose
+  sides: one
+  difficulty: beginner
+  anatomy:
+    - Hip flexion
+    - Knee flexion (both legs)
+    - Quadriceps engagement (both legs)
+    - Glute engagement
+    - Calf engagement
+    - Spinal extension
+    - Shoulder flexion (arms overhead)
+    - Core engagement
+
+practice:
+  entry_cues:
+    - from: tadasana
+      steps:
+        - Bend your knees deeply
+        - Sink your hips back, as if sitting into a chair behind you
+        - Lengthen your tailbone down toward the floor
+        - Reach your arms up overhead, palms facing each other
+
+    - from: urdhva_hastasana
+      steps:
+        - Keep your arms reaching overhead
+        - Bend your knees deeply
+        - Sink your hips back, as if sitting into a chair behind you
+        - Lengthen your tailbone down
+
+    - from: uttanasana
+      steps:
+        - Bend your knees deeply
+        - Press into your feet and rise halfway, sweeping your arms forward and up overhead
+        - Sink your hips back into the chair shape
+        - Lengthen your tailbone down
+
+  hold_exploration:
+    - label: Sit lower
+      steps:
+        - Bend your knees more deeply
+        - Sink your hips lower, keeping your weight back in your heels
+        - Continue reaching up through your fingertips
+
+    - label: Find the heels
+      steps:
+        - Lift your toes briefly off the mat to feel the weight shift back into your heels
+        - Set the toes back down without losing the weight in the heels
+        - Hug your inner thighs toward each other
+
+  exit_cues:
+    - to: parivrtta_utkatasana
+      steps:
+        - Prayer your hands at your heart
+        - Twist your chest to the right, hooking your left elbow outside your right thigh
+        - Press your hands firmly together to deepen the twist
+
+    - to: tadasana
+      steps:
+        - Press into your feet to straighten your legs
+        - Lower your arms by your sides
+
+    - to: urdhva_hastasana
+      steps:
+        - Press into your feet to straighten your legs
+        - Keep your arms reaching overhead
+
+    - to: uttanasana
+      steps:
+        - Hinge forward at your hips, sweeping your arms wide and down
+        - Fold your torso over your legs
+        - Release your hands to the floor or your shins
+
+  suggested_hold_duration: 5–8 breaths
+
+accessibility:
+  - condition: Knee discomfort
+    modifications:
+      - Don't sink as deep — keep the knee bend more shallow
+      - Track your knees over your ankles, not past your toes
+      - Sit your hips down onto a block placed between your thighs for support
+
+  - condition: Tight shoulders (arms overhead)
+    modifications:
+      - Bring your hands to prayer at your heart
+      - Hold your arms shoulder-width apart rather than palms together
+      - Reach your arms forward, parallel to the floor
+
+  - condition: Lower back issues
+    modifications:
+      - Lengthen your tailbone down to avoid arching the lower back
+      - Engage your core firmly
+      - Don't sink as deep into the squat
+
+  - condition: Balance / ankle stability
+    modifications:
+      - Practice with your back lightly against a wall, sliding down into the shape
+      - Keep your feet hip-width apart rather than together
+      - Place a folded blanket under your heels for support
+
+variations:
+  - description: Hands in prayer at the heart
+  - description: Arms wide in a "T" shape, parallel to the floor
+  - description: Fingers interlaced overhead with index fingers pointed up (steeple grip)
+  - description: Rise up onto the balls of your feet (toe balance)
+
+relationships:
+  entry_transitions:
+    - tadasana
+    - urdhva_hastasana
+    - uttanasana
+  exit_transitions:
+    - parivrtta_utkatasana
+    - tadasana
+    - urdhva_hastasana
+    - uttanasana
+
+media:
+  images:
+    - path: images/utkatasana/main.jpg
+      alt: Chair Pose with knees bent deeply and arms reaching overhead

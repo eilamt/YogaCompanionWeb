@@ -1,0 +1,157 @@
+# ============================================================
+# Prasarita Padottanasana — Wide-Legged Forward Bend
+# Schema: v7
+# Symmetric pose (sides: one). Feet parallel, facing the long
+# side of the mat, both legs straight, torso folded forward.
+# ============================================================
+
+meta:
+  id: prasarita_padottanasana
+  version: 7
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: प्रसारित पादोत्तानासन
+    transliteration: Prasārita Pādottānāsana
+  etymology:
+    - root: prasarita
+      meaning: spread / extended
+    - root: pada
+      meaning: foot
+    - root: uttana
+      meaning: intense stretch
+    - root: asana
+      meaning: pose / posture
+  english_name: Wide-Legged Forward Bend
+  pronunciation: prah-suh-REE-tuh pah-doh-tah-NAH-suh-nuh
+
+classification:
+  primary_class: Forward Bend
+  sides: one
+  difficulty: beginner
+  anatomy:
+    - Hamstring stretch (both legs)
+    - Adductor stretch (both legs)
+    - Hip flexion
+    - Spinal flexion
+    - Quadriceps engagement (both legs)
+    - Mild inversion (head below heart)
+
+practice:
+  entry_cues:
+    - from: wide_legged_stand
+      steps:
+        - Bring your hands to your hips
+        - Lengthen your spine forward, lifting through the crown of your head
+        - Hinge from your hips and fold forward
+        - Release your hands to the mat between your feet
+
+    - from: low_lunge
+      steps:
+        - Walk your hands across the mat toward the long side
+        - Parallel your feet to face the side of the mat
+        - Walk your hands back between your feet and fold forward
+
+    - from: utthita_trikonasana
+      steps:
+        - Look down and soften your front knee
+        - Parallel your feet to face the side of the mat
+        - Hinge forward at your hips and release your hands to the floor between your feet
+
+    - from: utthita_parsvakonasana
+      steps:
+        - Press into your front foot to straighten your front leg
+        - Look down and parallel your feet to face the side of the mat
+        - Hinge forward at your hips and release your hands to the floor between your feet
+
+  hold_exploration:
+    - label: Hands forward like Down Dog
+      steps:
+        - Walk your hands forward, in front of your shoulders
+        - Press your hands into the floor as if in Down Dog
+        - Lengthen your spine and open your chest toward the floor
+
+    - label: Twist — one side, then the other
+      steps:
+        - Place your hands on the floor directly under your shoulders
+        - Press your right hand into the floor and lift your left hand up toward the sky, opening your chest to the left
+        - Return your left hand to the floor
+        - Lift your right hand up to the sky, opening your chest to the right
+        - Return your right hand to the floor
+
+    - label: Crown on the mat with Chaturanga arms
+      steps:
+        - Place your hands on the floor, palms in line with your feet
+        - Bend your elbows back along your ribs (Chaturanga arms)
+        - Place the crown of your head on the mat between your hands
+
+  exit_cues:
+    - to: wide_legged_stand
+      steps:
+        - Bring your hands to your hips
+        - Lengthen your spine forward
+        - Rise up with a flat back to standing
+
+    - to: low_lunge
+      steps:
+        - Walk your hands forward across the mat toward the top of the mat
+        - Turn your feet to face the top of the mat as you crawl
+        - Step one foot back behind you, staying high on the ball of the foot
+        - Frame your front foot with your hands, back knee lifted
+
+    - to: salamba_sirsasana_ii
+      level: advanced
+      steps:
+        - Place the crown of your head on the mat with your hands shoulder-width apart, in line with your shoulders
+        - Walk your feet in toward your hands
+        - Bend your knees and rest them on your upper arms
+        - Engage your core and lift one leg, then the other, up into Tripod Headstand
+
+  suggested_hold_duration: 5–10 breaths
+
+accessibility:
+  - condition: Tight hamstrings (hands don't reach the floor)
+    modifications:
+      - Place your hands on blocks at any height
+      - Keep a soft bend in your knees
+      - Rest your forearms on your thighs and hinge less deeply
+
+  - condition: Tight adductors / inner thighs
+    modifications:
+      - Narrow your stance until the stretch is sustainable
+      - Stay lifted out of the fold rather than going deep
+      - Skip and do Uttanasana (feet together forward fold) instead
+
+  - condition: Neck discomfort (head hanging)
+    modifications:
+      - Rest the crown of your head on a block
+      - Keep your gaze forward rather than letting the head dangle
+      - Hold your elbows overhead to give the neck more length
+
+  - condition: Lower back issues
+    modifications:
+      - Keep a generous bend in your knees
+      - Place your hands on blocks to reduce the depth of the fold
+      - Stay lifted with hands on the thighs, hinging less deeply
+
+variations: []
+
+relationships:
+  entry_transitions:
+    - wide_legged_stand
+    - low_lunge
+    - utthita_trikonasana
+    - utthita_parsvakonasana
+  exit_transitions:
+    - wide_legged_stand
+    - low_lunge
+    - salamba_sirsasana_ii
+
+media:
+  images:
+    - path: images/prasarita_padottanasana/main.jpg
+      alt: Wide-Legged Forward Bend with hands on the floor between the feet

@@ -1,0 +1,143 @@
+# ============================================================
+# Asana — Low Lunge
+# Yoga Maya curriculum
+#
+# Notes:
+# - Yoga Maya's "Low Lunge" is its own pose with no direct Sanskrit
+#   equivalent. It is structured like High Lunge (back leg straight,
+#   back knee lifted) but with both hands on the floor, framing the
+#   front foot. Not to be confused with Anjaneyasana, which Yoga Maya
+#   treats as a separate pose (back knee down, arms reaching up) —
+#   referenced here as one of the exit destinations.
+# - Canonical orientation: RIGHT LEG FORWARD. All cues describe this
+#   side. The renderer mirrors right ↔ left to produce the second-side
+#   display (left-leg-forward).
+# ============================================================
+
+meta:
+  id: low_lunge
+  version: 5
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-11
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari:           # no traditional Sanskrit name in Yoga Maya
+    transliteration:
+  etymology: []           # no Sanskrit roots
+  english_name: Low Lunge
+  pronunciation:
+
+classification:
+  primary_class: Open Standing Pose
+  secondary_class:
+  sides: two
+  anatomy:
+    - Hip flexion (front leg)
+    - Hip extension (back leg)
+    - Knee flexion (front leg, ~90°)
+    - Knee extension (back leg)
+    - Ankle dorsiflexion (front leg)
+    - Iliopsoas stretch (back leg)
+    - Rectus femoris stretch (back leg, partial)
+    - Gastrocnemius engagement (back leg, depending on heel position)
+    - Quadriceps engagement (front leg)
+    - Hamstring engagement (back leg, to keep the leg straight)
+    - Wrist extension (weight-bearing)
+
+practice:
+  entry_cues:
+    - from: Uttanasana
+      steps:
+        - Bend your knees
+        - Step your left foot back, all the way to the back of the mat
+        - Keep your back leg straight and your back knee lifted
+        - Frame your right foot with both hands — one hand on each side of the foot
+
+    - from: Adho Mukha Svanasana
+      steps:
+        - Step your right foot forward between your hands
+        - Keep your hands framing your right foot — one hand on each side
+        - Keep your back leg straight and your back knee lifted
+
+  hold_exploration:
+    - label: Low Lunge Twist
+      steps:
+        - Keep your left hand on the floor
+        - Circle your right arm up to the sky
+        - Rotate your chest open to the right and look up at your right hand
+        - Return your right hand to the floor
+
+  exit_cues:
+    - to: Uttanasana
+      steps:
+        - Step your left foot forward to meet your right foot
+        - Fold over your legs
+
+    - to: Adho Mukha Svanasana
+      steps:
+        - Step your right foot back to meet your left foot
+        - Press up and back into Downward-Facing Dog
+
+    - to: Plank
+      steps:
+        - Step your right foot back to meet your left foot
+        - Hold Plank
+
+    - to: Parsvottanasana
+      steps:
+        - Straighten your right leg
+        - Square your hips toward the front of the mat
+        - Fold over your right leg
+
+    - to: Anjaneyasana
+      steps:
+        - Tap your left knee down to the floor
+        - Lift your hands off the mat
+        - Circle your arms up overhead
+
+  suggested_hold_duration: 5 breaths
+
+accessibility:
+  - condition: Wrist sensitivity or weight-bearing limitation
+    modifications:
+      - Rest your hands on blocks instead of the floor
+      - Make fists and rest on the knuckles to keep the wrists neutral
+
+  - condition: Tight hamstrings / can't reach the floor with both hands
+    modifications:
+      - Place your hands on blocks to raise the floor
+      - Bend the back knee slightly to bring the hands closer to the mat
+
+  - condition: Tight hip flexors
+    modifications:
+      - Shorten your stance so the back leg isn't fully lengthened
+      - Bend the back knee slightly
+
+  - condition: Sciatic nerve sensitivity
+    modifications:
+      - Shorten your stance to reduce the stretch on the back leg
+      - Bend the back knee slightly
+
+variations:
+  - Lower onto your forearms inside your right foot (Lizard Pose / Utthan Pristhasana)
+  - Lower the back heel toward the floor for a deeper calf stretch
+  - Lift your left hand off the floor and balance briefly (twist prep without the full arm circle)
+
+relationships:
+  entry_transitions:
+    - Uttanasana
+    - Adho Mukha Svanasana
+  exit_transitions:
+    - Uttanasana
+    - Adho Mukha Svanasana
+    - Plank
+    - Parsvottanasana
+    - Anjaneyasana
+
+media:
+  images:
+    - path: images/low_lunge/main.jpg
+      alt: Practitioner in Yoga Maya Low Lunge with the right foot forward, back leg straight and back knee lifted, both hands on the floor framing the front foot

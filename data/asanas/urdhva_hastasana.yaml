@@ -1,0 +1,117 @@
+# ============================================================
+# Asana — Urdhva Hastasana (Upward Salute)
+# Yoga Maya curriculum
+# ============================================================
+
+meta:
+  id: urdhva_hastasana
+  version: 5
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-11
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: ऊर्ध्व हस्तासन
+    transliteration: Ūrdhva Hastāsana
+  etymology:
+    - root: urdhva
+      meaning: upward
+    - root: hasta
+      meaning: hand
+    - root: asana
+      meaning: pose / posture
+  english_name: Upward Salute
+  pronunciation: OORD-vah hah-STAHS-uh-nuh
+
+classification:
+  primary_class: Neutral Standing Pose
+  secondary_class:
+  sides: one
+  anatomy:
+    - Shoulder flexion (arms overhead)
+    - Scapular upward rotation
+    - Spinal axial extension (lengthening upward)
+    - Knee extension (active)
+    - Quadriceps engagement
+    - Core engagement
+    - Erector spinae engagement
+    - Serratus anterior engagement (stabilizing the scapulae)
+    - Latissimus dorsi stretch
+    - During the side stretch — lateral spinal flexion, intercostal stretch, quadratus lumborum stretch
+
+practice:
+  entry_cues:
+    - from: Tadasana
+      steps:
+        - Circle your arms up to the sky
+        - Hook your thumbs and spread your fingers
+        - Straighten your arms completely
+
+    - from: Uttanasana
+      steps:
+        - Bend your knees slightly
+        - Rise up, circling your arms up to the sky
+        - Hook your thumbs and spread your fingers
+        - Straighten your arms completely
+
+  hold_exploration:
+    - label: Side stretch
+      steps:
+        - Hold your right wrist with your left hand
+        - Reach up and over to the left, lengthening through your right side body
+        - Return to center
+        - Hold your left wrist with your right hand
+        - Reach up and over to the right, lengthening through your left side body
+        - Return to center
+
+  exit_cues:
+    - to: Tadasana
+      steps:
+        - Lower your arms down by your sides
+
+    - to: Uttanasana
+      steps:
+        - Sweep your arms wide and fold forward over your legs
+
+  suggested_hold_duration: 3–5 breaths
+
+accessibility:
+  - condition: Tight shoulders / can't bring arms straight overhead
+    modifications:
+      - Keep your arms wider apart, shoulder-width or wider
+      - Bend your elbows so your hands rest above your head rather than fully extended
+      - Bring your hands to prayer at heart center instead
+
+  - condition: Lower back sensitivity
+    modifications:
+      - Keep your ribs drawn in to avoid arching the lower back
+      - Engage your core actively to support the spine
+
+  - condition: Shoulder injury
+    modifications:
+      - Reach the arms only to shoulder height, palms forward
+      - Bring your hands to prayer at heart center instead
+
+  - condition: Balance challenges
+    modifications:
+      - Stand with your feet hip-width apart for a wider, more stable base
+
+variations:
+  - Anuvittasana — lean back into a gentle standing back bend from Urdhva Hastasana
+  - Practice with your eyes closed for a proprioception challenge
+  - Rise up onto the balls of your feet and balance there
+
+relationships:
+  entry_transitions:
+    - Tadasana
+    - Uttanasana
+  exit_transitions:
+    - Tadasana
+    - Uttanasana
+
+media:
+  images:
+    - path: images/urdhva_hastasana/main.jpg
+      alt: Practitioner in Urdhva Hastasana standing at the top of the mat with arms reaching up overhead, thumbs hooked, fingers spread

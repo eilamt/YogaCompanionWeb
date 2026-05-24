@@ -1,0 +1,154 @@
+# ============================================================
+# Asana — Trikonasana (Triangle Pose)
+# Yoga Maya curriculum, v7 schema
+#
+# Canonical orientation: right leg forward, right hand on
+# shin / block / floor, left arm reaching to the sky, gaze up
+# at the top hand. Renderer mirrors for the left side.
+# ============================================================
+
+meta:
+  id: trikonasana
+  version: 7
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: त्रिकोणासन
+    transliteration: Trikoṇāsana
+  etymology:
+    - root: tri
+      meaning: three
+    - root: kona
+      meaning: angle / corner
+    - root: asana
+      meaning: pose / posture
+  english_name: Triangle Pose
+  pronunciation: tree-koh-NAHS-uh-nuh
+
+classification:
+  primary_class: Open Standing Pose
+  secondary_class:
+  sides: two
+  difficulty: beginner
+  anatomy:
+    - Hip flexion (front leg, at the hip joint)
+    - Hip abduction (stance)
+    - Hip external rotation (front leg)
+    - Hamstring stretch (front leg)
+    - Adductor engagement
+    - Quadriceps engagement (both legs)
+    - Spinal elongation
+    - Lateral flexion (slight)
+    - Shoulder abduction (~90°, arms in line)
+    - Oblique engagement
+    - Erector spinae engagement
+
+practice:
+  entry_cues:
+    - from: virabhadrasana_ii
+      steps:
+        - Straighten your front leg
+        - Reach your front arm forward, hinging at the hip
+        - Tip from the hip and lower your front hand to your shin, the floor, or a block
+        - Stack your back arm to the sky
+        - Gaze up at your top hand
+
+    - from: utthita_parsvakonasana
+      steps:
+        - Press into your front foot to straighten the front leg
+        - Lift your torso to open your chest toward the sky
+        - Bring your top arm straight up
+        - Adjust your bottom hand to shin, floor, or block
+
+    - from: tadasana
+      label: From standing center, facing the long edge
+      steps:
+        - Step your feet wide apart, about a leg's length
+        - Turn your right foot to point toward the front of the mat
+        - Angle your left foot slightly in
+        - Open your arms wide, parallel to the floor
+        - Reach your right arm forward, hinging at the hip
+        - Tip from the hip and lower your right hand to your shin, the floor, or a block
+        - Stack your left arm to the sky
+
+  hold_exploration:
+    - label: Open the chest
+      steps:
+        - Stack your shoulders — top shoulder over bottom shoulder
+        - Rotate your chest open toward the sky
+        - Lengthen the crown of your head forward, away from your back foot
+
+    - label: Strong legs
+      steps:
+        - Press into both feet equally
+        - Engage your quadriceps to lift your kneecaps
+        - Press your back outer thigh actively behind you
+
+  exit_cues:
+    - to: utthita_parsvakonasana
+      steps:
+        - Bend your front knee to 90°
+        - Bring your bottom hand or forearm to your front thigh, or your hand to the floor outside the foot
+        - Sweep your top arm overhead alongside your ear
+
+    - to: prasarita_padottanasana
+      steps:
+        - Press into your front foot and rise back to a wide stance with arms parallel
+        - Spin both feet to parallel, toes facing the long edge of the mat
+        - Hinge from your hips and fold forward, hands to the floor
+
+    - to: tadasana
+      steps:
+        - Press into your front foot
+        - Rise back to a wide stance with arms parallel to the floor
+        - Lower your arms
+        - Step your back foot forward to meet the front
+
+    - to: virabhadrasana_ii
+      steps:
+        - Rise back to a wide stance with arms parallel
+        - Bend your front knee deeply to 90°
+        - Gaze over your front fingertips
+
+  suggested_hold_duration: 5–8 breaths
+
+accessibility:
+  - condition: Tight hamstrings
+    modifications:
+      - Place your bottom hand on a block, set as tall as it needs to be
+      - Rest your bottom hand on your shin rather than the floor
+      - Soften your front knee slightly
+
+  - condition: Neck sensitivity
+    modifications:
+      - Gaze down at your front foot or straight ahead rather than up
+      - Bring your top hand to your hip instead of reaching up
+      - Practice against a wall for support
+
+  - condition: Balance challenges
+    modifications:
+      - Practice against a wall — back body against the wall for support
+      - Shorten the stance
+      - Bring the bottom hand higher (to a block or shin)
+
+variations: []
+
+relationships:
+  entry_transitions:
+    - virabhadrasana_ii
+    - utthita_parsvakonasana
+    - tadasana
+  exit_transitions:
+    - utthita_parsvakonasana
+    - prasarita_padottanasana
+    - tadasana
+    - virabhadrasana_ii
+
+media:
+  images:
+    - path: images/trikonasana/main.jpg
+      alt: Practitioner in Triangle Pose with right hand on shin, left arm reaching up, gaze toward the top hand

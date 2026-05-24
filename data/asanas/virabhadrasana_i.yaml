@@ -1,0 +1,163 @@
+# ============================================================
+# Virabhadrasana I — Warrior I
+# Schema: v7
+# Canonical orientation: right foot forward, left foot back at
+# ~45 degrees with the heel firmly planted. Hips squared to the
+# front of the mat. The renderer mirrors right ↔ left to produce
+# the second-side display.
+# ============================================================
+
+meta:
+  id: virabhadrasana_i
+  version: 8
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: वीरभद्रासन
+    transliteration: Vīrabhadrāsana I
+  etymology:
+    - root: vira
+      meaning: hero / warrior
+    - root: bhadra
+      meaning: friend / auspicious
+    - root: asana
+      meaning: pose / posture
+  english_name: Warrior I
+  pronunciation: veer-uh-bah-DRAH-suh-nuh (one)
+
+classification:
+  primary_class: Neutral Standing Pose
+  sides: two
+  difficulty: beginner
+  anatomy:
+    - Hip flexion (front leg)
+    - Knee flexion (front leg)
+    - Hip extension (back leg)
+    - Hip flexor stretch (back leg)
+    - Internal rotation (back hip squaring forward)
+    - Quadriceps engagement (both legs)
+    - Calf stretch (back leg)
+    - Shoulder flexion (arms overhead)
+
+practice:
+  entry_cues:
+    - from: high_lunge
+      steps:
+        - Spin your back (left) heel down to a 45-degree angle
+        - Plant the outer edge of your back foot firmly into the mat
+        - Square your hips toward the front of the mat
+        - Keep your right knee bent deeply, arms reaching overhead
+
+    - from: vrksasana
+      mirror: true
+      steps:
+        - Bring your right knee forward and up off your left inner thigh
+        - Step your right foot back behind you, landing on the ball of the foot
+        - Spin your right heel down to a 45-degree angle, planting the foot
+        - Bend deeply through your left knee
+        - Square your hips forward, reach your arms overhead
+
+    - from: utthita_hasta_padangusthasana
+      steps:
+        - Release the yogi toe lock
+        - Lower your right foot down to the mat in front of you, stepping it slightly forward into a wide stance
+        - Spin your left (back) heel out to a 45-degree angle, planting the foot
+        - Bend deeply through your right knee
+        - Square your hips forward, reach your arms overhead
+
+    - from: tadasana
+      steps:
+        - Step your left foot back into a wide stance
+        - Spin your left heel out to a 45-degree angle, planting the foot
+        - Bend deeply through your right knee
+        - Square your hips toward the front of the mat
+        - Reach your arms overhead
+
+  hold_exploration:
+    - label: Sit lower
+      steps:
+        - Bend your front knee more deeply, tracking your knee over your ankle
+        - Sink your hips lower toward the floor
+        - Continue reaching up through your fingertips
+
+    - label: Interlace your fingers overhead
+      steps:
+        - Interlace your fingers above your head
+        - Release your index fingers and press them up to the sky (steeple grip)
+        - Soften your shoulders down away from your ears
+
+  exit_cues:
+    - to: parsvottanasana
+      steps:
+        - Press into your front foot to straighten your front leg
+        - Bring your hands to your hips
+        - Square your hips even more firmly toward the front of the mat
+        - Hinge forward at your hips, folding your torso over your front leg
+
+    - to: parivrtta_virabhadrasana_i
+      steps:
+        - Prayer your hands at your heart
+        - Tuck your left elbow outside your right thigh
+        - Twist your chest open to the right
+
+    - to: high_lunge
+      steps:
+        - Spin your left heel up off the mat
+        - Come high on the ball of your left foot
+        - Keep your right knee bent deeply, arms overhead
+
+    - to: tadasana
+      steps:
+        - Press into your front foot to straighten your front leg
+        - Step your left foot forward to meet your right foot
+        - Lower your arms by your sides
+
+  suggested_hold_duration: 5–8 breaths
+
+accessibility:
+  - condition: Tight hip flexors (can't square back hip forward)
+    modifications:
+      - Shorten your stance front-to-back
+      - Widen your stance side-to-side (back foot off the same line as the front foot)
+      - Come up onto the ball of your back foot (becomes High Lunge, where squaring is easier)
+
+  - condition: Back heel doesn't reach the ground
+    modifications:
+      - Place a folded blanket or wedge under your back heel
+      - Come up onto the ball of your back foot (becomes High Lunge)
+      - Shorten your stance front-to-back
+
+  - condition: Tight shoulders (can't reach arms overhead)
+    modifications:
+      - Bring your hands to your hips
+      - Prayer your hands at your heart
+      - Reach your arms forward and up only as far as your shoulders allow
+
+  - condition: Front knee discomfort
+    modifications:
+      - Track your front knee directly over your ankle, not past your toes
+      - Soften the depth of the bend
+      - Widen your stance side-to-side for more stability
+
+variations: []
+
+relationships:
+  entry_transitions:
+    - high_lunge
+    - vrksasana
+    - utthita_hasta_padangusthasana
+    - tadasana
+  exit_transitions:
+    - parsvottanasana
+    - parivrtta_virabhadrasana_i
+    - high_lunge
+    - tadasana
+
+media:
+  images:
+    - path: images/virabhadrasana_i/main.jpg
+      alt: Warrior I with right foot forward, back heel down, arms reaching overhead

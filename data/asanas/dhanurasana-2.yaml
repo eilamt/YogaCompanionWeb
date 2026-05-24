@@ -1,0 +1,120 @@
+# ============================================================
+# Asana — Dhanurasana
+# Yoga Maya curriculum
+# ============================================================
+
+meta:
+  id: dhanurasana
+  version: 3
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-11
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: धनुरासन
+    transliteration: Dhanurāsana
+  etymology:
+    - root: dhanu
+      meaning: bow
+    - root: asana
+      meaning: pose / posture
+  english_name: Bow Pose
+  pronunciation: dah-noor-AHS-uh-nuh
+
+classification:
+  primary_class: Back Bend
+  secondary_class:
+  anatomy:
+    - Spinal extension (deep, thoracic and lumbar)
+    - Hip extension
+    - Knee flexion (active)
+    - Shoulder extension
+    - Quadriceps stretch (rectus femoris)
+    - Hip flexor stretch (iliopsoas)
+    - Abdominal stretch (rectus abdominis)
+    - Pectoralis major stretch
+    - Anterior deltoid stretch
+    - Erector spinae engagement
+    - Gluteus maximus engagement
+    - Hamstring engagement (knee flexion)
+
+practice:
+  entry_cues:
+    - from: Prone
+      steps:
+        - Bend your knees and bring your heels toward your seat
+        - Reach back and grab the outside of your ankles
+        - Keep your knees about hip-width apart
+        - Kick your feet back into your hands
+        - Let your chest and thighs lift off the mat
+        - Lift your gaze forward
+
+  hold_exploration:
+    - label: Rocking with the breath
+      steps:
+        - Inhale and rock forward onto your upper chest
+        - Exhale and rock back onto your thighs
+        - Let the breath drive the movement
+
+    - label: Parsva Dhanurasana
+      steps:
+        - Keeping your bind, roll over onto your right side
+        - Stay for a few breaths
+        - Roll back through center and over to the left side
+        - Stay for a few breaths
+        - Roll back through center
+
+    - label: Steady hold
+      steps:
+        - Settle into the deepest shape you can find
+        - Keep kicking your feet steadily into your hands
+        - Soften your face and breathe
+
+  exit_cues:
+    - to: Prone
+      steps:
+        - Release your ankles
+        - Lower your chest, thighs, and forehead back to the mat
+
+  suggested_hold_duration: 5 breaths, or 3 rounds with a short rest between
+
+accessibility:
+  - condition: Can't reach the ankles (tight shoulders or quadriceps)
+    modifications:
+      - Loop a strap around your ankles and hold the ends
+      - Practice Ardha Dhanurasana — bind one side at a time
+      - Skip and do Salabhasana (Locust) instead
+
+  - condition: Lower back sensitivity
+    modifications:
+      - Keep the knees as wide as the hips (not narrower)
+      - Lift less aggressively — prioritize length over height
+      - Skip and do gentle Bhujangasana instead
+
+  - condition: Pregnancy (any trimester where belly compression is contraindicated)
+    modifications:
+      - Skip and do supported Bhujangasana with a wide stance instead
+      - Skip and do Salabhasana variations with a bolster under the hips instead
+
+  - condition: Acid reflux or recent abdominal surgery
+    modifications:
+      - Skip and do gentle Bhujangasana instead
+
+variations:
+  - Parsva Dhanurasana — roll onto one side while holding the bind, then the other
+  - Reach for the tops of the feet instead of the ankles for a deeper backbend
+  - Padangustha Dhanurasana — catch the big toes with a peace-fingers grip
+  - Cross-bind — right hand to left foot, left hand to right foot
+
+relationships:
+  entry_transitions:
+    - Prone
+  exit_transitions:
+    - Prone
+
+media:
+  images:
+    - path: images/dhanurasana/main.jpg
+      alt: Practitioner in Bow Pose holding the ankles with chest and thighs lifted off the mat

@@ -1,0 +1,125 @@
+# ============================================================
+# Asana — Urdhva Mukha Svanasana (Upward-Facing Dog)
+# Yoga Maya curriculum, v7 schema
+# ============================================================
+
+meta:
+  id: urdhva_mukha_svanasana
+  version: 7
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: ऊर्ध्वमुखश्वानासन
+    transliteration: Ūrdhva Mukha Śvānāsana
+  etymology:
+    - root: urdhva
+      meaning: upward
+    - root: mukha
+      meaning: face
+    - root: svana
+      meaning: dog
+    - root: asana
+      meaning: pose / posture
+  english_name: Upward-Facing Dog
+  pronunciation: OORD-vuh MOO-kuh shvah-NAHS-uh-nuh
+
+classification:
+  primary_class: Back Bend
+  secondary_class:
+  sides: one
+  difficulty: intermediate
+  anatomy:
+    - Spinal extension
+    - Hip extension
+    - Shoulder flexion (arms straight, weight-bearing)
+    - Pectoralis major stretch
+    - Rectus abdominis stretch
+    - Hip flexor stretch (iliopsoas)
+    - Quadriceps engagement
+    - Erector spinae engagement
+    - Anterior deltoid engagement
+    - Wrist extension (weight-bearing)
+    - Ankle plantar flexion (tops of feet to mat)
+
+practice:
+  entry_cues:
+    - from: plank
+      steps:
+        - Shift your shoulders past your wrists
+        - Roll forward over your toes — tops of the feet to the mat
+        - Press the floor away and lift your chest forward and up
+        - Lift your thighs off the mat
+
+    - from: chaturanga_dandasana
+      steps:
+        - Roll forward over your toes — tops of the feet to the mat
+        - Press the floor away and straighten your arms
+        - Open your chest forward and up
+        - Lift your thighs off the mat
+
+  hold_exploration:
+    - label: Open the chest
+      steps:
+        - Roll your shoulders back and down
+        - Draw your shoulder blades together behind you
+        - Lift your sternum higher
+
+    - label: Strong legs
+      steps:
+        - Engage your thighs to lift them off the mat
+        - Press the tops of your feet down firmly
+        - Reach your heels straight back
+
+  exit_cues:
+    - to: plank
+      steps:
+        - Roll back over your toes
+        - Bring your body parallel to the floor in Plank
+
+    - to: adho_mukha_svanasana
+      steps:
+        - Roll back over your toes
+        - Lift your hips up and back
+        - Press into Down Dog
+
+  suggested_hold_duration: 1–2 breaths (often transitional)
+
+accessibility:
+  - condition: Wrist sensitivity
+    modifications:
+      - Use a wedge or rolled mat edge under the heels of the hands
+      - Reduce time in the pose, treat it as a brief pass-through
+      - Skip and do Bhujangasana (Cobra) instead
+
+  - condition: Low back compression
+    modifications:
+      - Engage your thighs strongly and tuck the tailbone slightly
+      - Press through the tops of the feet to lengthen the spine
+      - Skip and do Bhujangasana instead
+
+  - condition: Shoulder injury
+    modifications:
+      - Practice Sphinx Pose on the forearms instead
+      - Use blocks under the hands to reduce shoulder loading
+      - Skip and do Bhujangasana instead
+
+variations:
+  - id: eka_pada_urdhva_mukha_svanasana
+    description: One-legged Up Dog — lift one leg parallel to the floor (or higher) while pressing through the standing leg
+
+relationships:
+  entry_transitions:
+    - plank
+    - chaturanga_dandasana
+  exit_transitions:
+    - plank
+    - adho_mukha_svanasana
+
+media:
+  images:
+    - path: images/urdhva_mukha_svanasana/main.jpg
+      alt: Practitioner in Upward-Facing Dog with chest open, arms straight, thighs lifted off the mat

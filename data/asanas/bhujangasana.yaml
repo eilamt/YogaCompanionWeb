@@ -1,0 +1,108 @@
+# ============================================================
+# Asana — Bhujangasana
+# Yoga Maya curriculum
+# ============================================================
+
+meta:
+  id: bhujangasana
+  version: 3
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-11
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: भुजङ्गासन
+    transliteration: Bhujaṅgāsana
+  etymology:
+    - root: bhujanga
+      meaning: serpent / cobra
+    - root: asana
+      meaning: pose / posture
+  english_name: Cobra Pose
+  pronunciation: boo-jahn-GAHS-uh-nuh
+
+classification:
+  primary_class: Back Bend
+  secondary_class:
+  anatomy:
+    - Spinal extension (primarily thoracic)
+    - Scapular retraction
+    - Hip extension (mild)
+    - Knee extension
+    - Erector spinae engagement
+    - Gluteus maximus engagement (mild)
+    - Pectoralis major stretch
+    - Anterior deltoid stretch
+    - Rectus abdominis stretch
+
+practice:
+  entry_cues:
+    - from: Prone
+      label: Hands wide and forward
+      steps:
+        - Place your hands on the mat, wider than your shoulders and forward of them
+        - Press the tops of your feet down into the mat
+        - Push your palms down and lift your chest off the mat
+
+    - from: Prone
+      label: Hands under shoulders
+      steps:
+        - Place your palms on the mat directly under your shoulders
+        - Hug your elbows in toward your ribs
+        - Press the tops of your feet down into the mat
+        - Push your palms down and lift your chest off the mat
+
+  hold_exploration:
+    - label: Shoulder dips
+      steps:
+        - Lower your right shoulder down toward the mat
+        - Lift it back up
+        - Lower your left shoulder down toward the mat
+        - Lift it back up
+
+  exit_cues:
+    - to: Prone
+      steps:
+        - Lower your chest back down to the mat
+        - Rest your forehead on the floor
+
+  suggested_hold_duration: 3–5 breaths, repeat 3 rounds
+
+accessibility:
+  - condition: Lower back sensitivity
+    modifications:
+      - Keep your elbows bent and lift less aggressively
+      - Slide the hands further forward so the lift comes from the upper back, not the lower back
+      - Skip and do Sphinx Pose instead (forearms on the mat)
+
+  - condition: Wrist pain or weight-bearing limitation
+    modifications:
+      - Skip and do Sphinx Pose instead (forearms on the mat)
+      - Lift only a few inches and reduce pressure into the hands
+
+  - condition: Pregnancy (any trimester where belly compression is contraindicated)
+    modifications:
+      - Skip and do a supported standing or seated backbend instead
+      - Skip and do Cat-Cow on hands and knees instead
+
+  - condition: Recent abdominal surgery
+    modifications:
+      - Skip and do gentle Cat-Cow on hands and knees instead
+
+variations:
+  - Hovering cobra — slide your hands to the sides of your chest, lift them a few inches off the floor, and lift your chest using your back
+  - Urdhva Mukha Svanasana (Upward-Facing Dog) — straighten the arms and lift the thighs off the mat
+  - Raja Bhujangasana (King Cobra) — bend the knees and bring the feet toward the head
+
+relationships:
+  entry_transitions:
+    - Prone
+  exit_transitions:
+    - Prone
+
+media:
+  images:
+    - path: images/bhujangasana/main.jpg
+      alt: Practitioner in Cobra Pose with chest lifted, hands beside the chest, and legs extended on the mat

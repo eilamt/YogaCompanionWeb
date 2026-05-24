@@ -1,0 +1,125 @@
+# ============================================================
+# Vrksasana — Tree Pose
+# Schema: v7
+# Canonical orientation: right foot lifted, standing on the left leg.
+# The renderer mirrors right ↔ left to produce the second-side display.
+# ============================================================
+
+meta:
+  id: vrksasana
+  version: 8
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: वृक्षासन
+    transliteration: Vṛkṣāsana
+  etymology:
+    - root: vrksa
+      meaning: tree
+    - root: asana
+      meaning: pose / posture
+  english_name: Tree Pose
+  pronunciation: vrik-SHAH-suh-nuh
+
+classification:
+  primary_class: Neutral Standing Pose
+  sides: two
+  difficulty: beginner
+  anatomy:
+    - Hip external rotation (lifted leg)
+    - Hip abduction (lifted leg)
+    - Knee flexion (lifted leg)
+    - Quadriceps engagement (standing leg)
+    - Hip stabilization (standing leg)
+    - Ankle stabilization (standing leg)
+
+practice:
+  entry_cues:
+    - from: tadasana
+      steps:
+        - Shift your weight onto your left foot
+        - Bend your right knee and lift your right foot
+        - Place the sole of your right foot on your left inner thigh — above or below the knee, never on the knee
+        - Press your foot and inner thigh into each other
+        - Prayer your hands at your heart
+
+  hold_exploration:
+    - label: Side bend with wrist hold
+      steps:
+        - Reach both arms overhead
+        - Grab your left wrist with your right hand
+        - Tilt over to the right, lengthening your left side body
+
+  exit_cues:
+    - to: tadasana
+      steps:
+        - Release your right foot down to the mat
+
+    - to: virabhadrasana_i
+      mirror: true
+      steps:
+        - Bring your right knee forward and up in front of you
+        - Step your right foot back, planting the ball of the foot, then lowering the heel
+        - Bend deeply through your left knee
+        - Reach your arms overhead
+
+    - to: high_lunge
+      mirror: true
+      steps:
+        - Bring your right knee forward and up in front of you
+        - Step your right foot back, staying high on the ball of the foot
+        - Bend deeply through your left knee
+        - Reach your arms overhead
+
+    - to: utthita_hasta_padangusthasana
+      level: intermediate
+      steps:
+        - Bring your right knee forward and up in front of you
+        - Hook your right big toe with the first two fingers of your right hand (yogi toe lock)
+        - Extend your right leg forward
+
+    - to: utthita_hasta_padangusthasana_b
+      level: intermediate
+      steps:
+        - Bring your right knee forward and up in front of you
+        - Hook your right big toe with the first two fingers of your right hand (yogi toe lock)
+        - Extend your right leg forward, then open it out to the right
+
+  suggested_hold_duration: 5–10 breaths
+
+accessibility:
+  - condition: Tight hips
+    modifications:
+      - Place your right foot on your left calf instead of your inner thigh
+      - Rest your right toes lightly on the floor with the heel against the left ankle (kickstand)
+      - Hold your right foot in place at the inner thigh with your right hand or a strap
+
+  - condition: Balance challenges
+    modifications:
+      - Practice with your back or one hand against a wall
+      - Keep your gaze fixed on a stationary point (drishti)
+      - Keep your hands at your heart rather than reaching overhead
+
+variations:
+  - description: Reach your arms overhead, palms together or shoulder-width apart
+  - description: Close your eyes to deepen the balance challenge
+  - description: Bring your hands into reverse prayer behind your back
+
+relationships:
+  entry_transitions:
+    - tadasana
+  exit_transitions:
+    - tadasana
+    - virabhadrasana_i
+    - high_lunge
+    - utthita_hasta_padangusthasana
+    - utthita_hasta_padangusthasana_b
+
+media:
+  images:
+    - path: images/vrksasana/main.jpg
+      alt: Tree Pose with hands at heart center

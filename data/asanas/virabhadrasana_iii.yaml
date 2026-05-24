@@ -1,0 +1,137 @@
+# ============================================================
+# Virabhadrasana III — Warrior III
+# Schema: v8
+# Canonical orientation: standing on the right leg, left leg
+# lifted back parallel to the floor, torso horizontal.
+# The renderer mirrors right ↔ left to produce the second-side display.
+# ============================================================
+
+meta:
+  id: virabhadrasana_iii
+  version: 8
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: वीरभद्रासन
+    transliteration: Vīrabhadrāsana III
+  etymology:
+    - root: vira
+      meaning: hero / warrior
+    - root: bhadra
+      meaning: friend / auspicious
+    - root: asana
+      meaning: pose / posture
+  english_name: Warrior III
+  pronunciation: veer-uh-bah-DRAH-suh-nuh (three)
+
+classification:
+  primary_class: Neutral Standing Pose
+  sides: two
+  difficulty: intermediate
+  anatomy:
+    - Hip extension (lifted leg)
+    - Hamstring and glute engagement (lifted leg)
+    - Hamstring stretch (standing leg)
+    - Quadriceps engagement (standing leg)
+    - Hip stabilization (standing leg)
+    - Ankle stabilization (standing leg)
+    - Spinal extension (horizontal torso)
+    - Core engagement
+
+practice:
+  entry_cues:
+    - from: tadasana
+      steps:
+        - Shift your weight onto your right foot
+        - Hinge forward at your hips, reaching your chest forward
+        - Float your left leg up behind you until it's parallel to the floor
+        - Straighten your right leg
+        - Reach your arms forward, parallel to the floor
+
+    - from: vrksasana
+      mirror: true
+      steps:
+        - Release the sole of your left foot from your right inner thigh
+        - Bring your left knee forward and up in front of you
+        - Hinge forward at your hips, reaching your chest forward
+        - Extend your left leg straight back behind you, parallel to the floor
+        - Reach your arms forward, parallel to the floor
+
+  hold_exploration:
+    - label: Lengthen through both ends
+      steps:
+        - Reach actively forward through the crown of your head
+        - Press strongly back through your lifted heel
+        - Imagine your body forming one long line from fingertips to heel
+
+    - label: Square the hips
+      steps:
+        - Roll your lifted hip down toward the floor
+        - Internally rotate your lifted leg slightly so the kneecap faces the floor
+        - Engage your lifted glute to keep the leg high
+
+  exit_cues:
+    - to: virabhadrasana_i
+      steps:
+        - Bend your right knee slightly
+        - Step your left foot back to the mat
+        - Spin your left heel down to a 45-degree angle, planting the foot
+        - Rise up, squaring your hips toward the front of the mat
+        - Reach your arms overhead
+
+    - to: high_lunge
+      steps:
+        - Bend your right knee slightly
+        - Step your left foot back to the mat, staying high on the ball of the foot
+        - Rise up, bending deeply through your right knee
+        - Reach your arms overhead
+
+  suggested_hold_duration: 5 breaths
+
+accessibility:
+  - condition: Balance challenges
+    modifications:
+      - Practice with your hands on the wall in front of you, body in a "T" shape
+      - Place your hands on blocks on either side of your standing foot
+      - Keep your hands on your hips rather than reaching forward
+
+  - condition: Tight hamstrings (standing leg)
+    modifications:
+      - Keep a soft bend in your standing knee
+      - Lift your back leg lower — below parallel is fine
+      - Place your hands on blocks for support
+
+  - condition: Lower back issues
+    modifications:
+      - Keep your lifted leg at hip height or lower — don't go above parallel
+      - Engage your core firmly to support the lumbar spine
+      - Keep your hands at your hips or in prayer rather than reaching arms forward
+
+  - condition: Shoulder tension (arms forward)
+    modifications:
+      - Bring your hands to prayer at your heart
+      - Reach your arms back along your sides (like a swimmer's dive)
+      - Keep your hands on your hips
+
+variations:
+  - description: Arms reaching forward, parallel to the floor (classic "Superman" arms)
+  - description: Arms by your sides, palms facing up toward the ceiling
+  - description: Hands in prayer at the heart
+  - description: Arms wide like wings (airplane arms)
+
+relationships:
+  entry_transitions:
+    - tadasana
+    - vrksasana
+  exit_transitions:
+    - virabhadrasana_i
+    - high_lunge
+
+media:
+  images:
+    - path: images/virabhadrasana_iii/main.jpg
+      alt: Warrior III with arms reaching forward, body horizontal to the floor

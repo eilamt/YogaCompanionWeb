@@ -1,0 +1,126 @@
+# ============================================================
+# Utthita Hasta Padangusthasana — Extended Hand-to-Big-Toe Pose
+# Schema: v7
+# Canonical orientation: standing on the left leg, right leg
+# extended forward, right hand holding the right big toe.
+# The renderer mirrors right ↔ left to produce the second-side display.
+# ============================================================
+
+meta:
+  id: utthita_hasta_padangusthasana
+  version: 7
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: उत्थित हस्त पादाङ्गुष्ठासन
+    transliteration: Utthita Hasta Pādāṅguṣṭhāsana
+  etymology:
+    - root: utthita
+      meaning: extended / raised
+    - root: hasta
+      meaning: hand
+    - root: pada
+      meaning: foot
+    - root: angushtha
+      meaning: big toe
+    - root: asana
+      meaning: pose / posture
+  english_name: Extended Hand-to-Big-Toe Pose
+  pronunciation: oot-THEE-tuh HAH-stuh pah-dahn-goosh-TAH-suh-nuh
+
+classification:
+  primary_class: Neutral Standing Pose
+  sides: two
+  difficulty: intermediate
+  anatomy:
+    - Hip flexion (lifted leg)
+    - Hamstring stretch (lifted leg)
+    - Quadriceps engagement (lifted leg)
+    - Quadriceps engagement (standing leg)
+    - Hip stabilization (standing leg)
+    - Ankle stabilization (standing leg)
+
+practice:
+  entry_cues:
+    - from: tadasana
+      steps:
+        - Shift your weight onto your left foot
+        - Bend your right knee and lift it up in front of you
+        - Hook your right big toe with the first two fingers of your right hand (yogi toe lock)
+        - Extend your right leg forward, straightening it
+        - Stand tall through the crown of your head
+
+    - from: vrksasana
+      steps:
+        - Release the sole of your right foot from your inner thigh
+        - Bring your right knee forward and up in front of you
+        - Hook your right big toe with the first two fingers of your right hand (yogi toe lock)
+        - Extend your right leg forward, straightening it
+
+  hold_exploration:
+    - label: Draw the leg closer
+      steps:
+        - Bend your elbow and draw your right leg in toward your chest
+        - Lengthen your spine, lifting up out of your standing hip
+        - Soften your shoulders down away from your ears
+
+  exit_cues:
+    - to: tadasana
+      steps:
+        - Release the yogi toe lock
+        - Lower your right foot back down to the mat
+        - Stand tall in Tadasana
+
+    - to: vrksasana
+      steps:
+        - Bend your right knee, drawing it in toward your chest
+        - Release the yogi toe lock
+        - Place the sole of your right foot on your left inner thigh
+        - Prayer your hands at your heart
+
+    - to: utthita_hasta_padangusthasana_b
+      steps:
+        - Keep the yogi toe lock
+        - Open your right leg out to the right side
+        - Turn your gaze over your left shoulder
+
+  suggested_hold_duration: 5 breaths
+
+accessibility:
+  - condition: Tight hamstrings (can't fully extend the leg)
+    modifications:
+      - Loop a strap around your right foot and hold the strap with your right hand
+      - Keep a soft bend in your lifted knee
+      - Hold the back of your thigh instead of catching the big toe
+
+  - condition: Balance challenges
+    modifications:
+      - Practice with your back against a wall
+      - Keep your gaze fixed on a stationary point (drishti)
+      - Hold the lifted leg lower — at hip height or below
+
+  - condition: Standing knee discomfort
+    modifications:
+      - Engage your standing-leg quadriceps without locking the knee
+      - Keep a micro-bend in the standing knee
+      - Skip and do supine Hand-to-Big-Toe (lying on your back) instead
+
+variations: []
+
+relationships:
+  entry_transitions:
+    - tadasana
+    - vrksasana
+  exit_transitions:
+    - tadasana
+    - vrksasana
+    - utthita_hasta_padangusthasana_b
+
+media:
+  images:
+    - path: images/utthita_hasta_padangusthasana/main.jpg
+      alt: Extended Hand-to-Big-Toe Pose with right leg extended forward

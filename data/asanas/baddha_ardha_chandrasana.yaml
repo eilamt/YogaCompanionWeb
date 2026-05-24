@@ -1,0 +1,106 @@
+# ============================================================
+# Baddha Ardha Chandrasana — Bound Half Moon Pose
+# Schema: v7
+# Canonical orientation: right foot grounded, left leg lifted,
+# right hand under the right thigh, left hand wrapping behind the
+# back, hands clasped. The renderer mirrors right ↔ left to
+# produce the second-side display.
+# ============================================================
+
+meta:
+  id: baddha_ardha_chandrasana
+  version: 7
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: बद्ध अर्धचन्द्रासन
+    transliteration: Baddha Ardha Chandrāsana
+  etymology:
+    - root: baddha
+      meaning: bound
+    - root: ardha
+      meaning: half
+    - root: chandra
+      meaning: moon
+    - root: asana
+      meaning: pose / posture
+  english_name: Bound Half Moon Pose
+  pronunciation: BUD-duh AR-duh chun-DRAH-suh-nuh
+
+classification:
+  primary_class: Open Standing Pose
+  sides: two
+  difficulty: advanced
+  anatomy:
+    - Hip abduction (lifted leg)
+    - Hip external rotation (top hip)
+    - Hamstring stretch (standing leg)
+    - Hamstring and glute engagement (lifted leg)
+    - Quadriceps engagement (standing leg)
+    - Hip stabilization (standing leg)
+    - Ankle stabilization (standing leg)
+    - Shoulder internal rotation (bottom arm)
+    - Shoulder external rotation (top arm)
+    - Thoracic extension and rotation
+
+practice:
+  entry_cues:
+    - from: baddha_utthita_parsvakonasana
+      steps:
+        - Keep the bind intact
+        - Bend deeply through your right knee and shift your weight forward onto your right foot
+        - Float your left leg up behind you, parallel to the floor
+        - Straighten your right leg
+        - Stack your left hip on top of your right hip, opening your chest toward the sky
+
+  hold_exploration:
+    - label: Deepen the bind and chest opening
+      steps:
+        - Draw your shoulders away from each other to tighten the bind
+        - Let the bind lift and open your chest further toward the sky
+        - Lengthen actively through your lifted left leg
+
+  exit_cues:
+    - to: baddha_utthita_parsvakonasana
+      steps:
+        - Look down
+        - Bend your right knee
+        - Land your left foot softly on the mat behind you
+        - Lower back into Bound Extended Side Angle, maintaining the bind throughout
+
+  suggested_hold_duration: 3–5 breaths
+
+accessibility:
+  - condition: Hands won't clasp (tight shoulders / chest)
+    modifications:
+      - Use a strap between your hands to maintain the bind shape
+      - Skip the full bind and do Ardha Chandrasana with the top arm reaching up instead
+
+  - condition: Balance challenges with full bind
+    modifications:
+      - Release your bottom hand to a block on the floor; keep only the top arm wrapped
+      - Practice with your back near a wall, lifted heel light against the wall
+      - Skip and do Ardha Chandrasana instead
+
+  - condition: Tight hamstrings (standing leg)
+    modifications:
+      - Keep a soft bend in your standing knee
+      - Lift your back leg lower, at hip height or below
+      - Skip and do Ardha Chandrasana with a block under the bottom hand instead
+
+variations: []
+
+relationships:
+  entry_transitions:
+    - baddha_utthita_parsvakonasana
+  exit_transitions:
+    - baddha_utthita_parsvakonasana
+
+media:
+  images:
+    - path: images/baddha_ardha_chandrasana/main.jpg
+      alt: Bound Half Moon Pose with hands clasped behind the standing thigh

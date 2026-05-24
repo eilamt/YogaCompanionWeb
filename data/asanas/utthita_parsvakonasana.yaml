@@ -1,0 +1,175 @@
+# ============================================================
+# Asana — Utthita Parsvakonasana (Extended Side Angle)
+# Yoga Maya curriculum, v7 schema
+#
+# Canonical orientation: right leg forward, right knee bent
+# to 90°, right forearm on right thigh (or right hand to the
+# floor outside the foot), left arm reaching overhead along
+# the ear. Renderer mirrors for the left side.
+# ============================================================
+
+meta:
+  id: utthita_parsvakonasana
+  version: 7
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: उत्थित पार्श्वकोणासन
+    transliteration: Utthita Pārśvakoṇāsana
+  etymology:
+    - root: utthita
+      meaning: extended / stretched
+    - root: parsva
+      meaning: side
+    - root: kona
+      meaning: angle
+    - root: asana
+      meaning: pose / posture
+  english_name: Extended Side Angle Pose
+  pronunciation: oo-TEE-tah parsh-vah-koh-NAHS-uh-nuh
+
+classification:
+  primary_class: Open Standing Pose
+  secondary_class: Side Bend
+  sides: two
+  difficulty: beginner
+  anatomy:
+    - Knee flexion (~90°, front leg)
+    - Knee extension (back leg)
+    - Hip flexion (front leg)
+    - Hip external rotation (front leg)
+    - Hip abduction (stance)
+    - Lateral flexion (toward the front leg)
+    - Side body stretch (intercostals, latissimus dorsi, obliques — top side)
+    - Quadriceps engagement
+    - Shoulder flexion (top arm overhead)
+    - Erector spinae engagement
+    - Ankle dorsiflexion (front leg)
+
+practice:
+  entry_cues:
+    - from: virabhadrasana_ii
+      steps:
+        - Keep your front knee at 90°
+        - Reach your front arm forward and tip your torso over your front thigh
+        - Bring your front forearm to your thigh, or your hand to the floor outside the foot
+        - Sweep your back arm overhead alongside your ear
+        - Gaze up under your top arm
+
+    - from: tadasana
+      label: From standing center, facing the long edge
+      steps:
+        - Step your feet wide apart, about a leg's length
+        - Turn your right foot to point toward the front of the mat
+        - Angle your left foot slightly in
+        - Bend your right knee to 90°
+        - Tip your torso over your front thigh
+        - Bring your right forearm to your thigh, or your hand to the floor outside the foot
+        - Sweep your left arm overhead alongside your ear
+
+    - from: peaceful_warrior
+      steps:
+        - Sweep your top arm forward and over your front thigh
+        - Bring your bottom hand or forearm to your front thigh, or your hand to the floor outside the foot
+        - Reach your top arm long alongside your ear
+
+    - from: prasarita_padottanasana
+      steps:
+        - Walk your hands to the right side of the mat
+        - Turn your right foot to point forward, left foot angled in
+        - Bend your right knee to 90°
+        - Bring your right forearm to your thigh, or your hand to the floor outside the foot
+        - Sweep your left arm overhead alongside your ear
+
+  hold_exploration:
+    - label: Stack the shoulder
+      steps:
+        - Rotate your chest open toward the sky
+        - Stack your top shoulder over the bottom
+        - Reach your top arm long alongside your ear
+
+    - label: Press and lengthen
+      steps:
+        - Press the outer edge of your back foot down
+        - Lengthen from your back heel through the crown of your head
+        - Draw your front knee back into your shoulder (when the hand is outside the foot)
+
+  exit_cues:
+    - to: virabhadrasana_ii
+      steps:
+        - Press into your back foot and rise back up
+        - Open your arms wide, parallel to the floor
+        - Gaze over your front fingertips
+
+    - to: trikonasana
+      steps:
+        - Straighten your front leg
+        - Slide your bottom hand toward your shin, or float it to a block
+        - Stack your top arm to the sky
+
+    - to: prasarita_padottanasana
+      steps:
+        - Press into your front foot to straighten the front leg
+        - Bring your torso upright
+        - Spin both feet to parallel, toes facing the long edge of the mat
+        - Hinge from your hips and fold forward, hands to the floor
+
+    - to: tadasana
+      steps:
+        - Press into both feet and rise back up
+        - Open into a wide stance with arms parallel to the floor
+        - Step your back foot forward to meet the front
+        - Lower your arms
+
+    - to: low_lunge
+      steps:
+        - Cartwheel both hands down to frame your front foot
+        - Lift your back heel and straighten the back leg
+        - Look forward, back knee lifted
+
+  suggested_hold_duration: 5–8 breaths
+
+accessibility:
+  - condition: Tight hips
+    modifications:
+      - Keep your bottom forearm on your thigh rather than hand to the floor
+      - Place a block under your bottom hand at any height
+      - Shorten the stance
+
+  - condition: Neck sensitivity
+    modifications:
+      - Gaze straight ahead or down at the floor rather than up
+      - Bring your top hand to your hip instead of reaching overhead
+      - Don't turn your head to look up
+
+  - condition: Knee sensitivity
+    modifications:
+      - Don't bend the front knee past the ankle
+      - Reduce the bend in the front knee
+      - Shorten the stance for less load on the front knee
+
+variations:
+  - id: baddha_parsvakonasana
+    description: Bound Side Angle — wrap the top arm behind the back and the bottom arm under the front thigh, clasp the hands behind the back
+
+relationships:
+  entry_transitions:
+    - virabhadrasana_ii
+    - tadasana
+    - peaceful_warrior
+    - prasarita_padottanasana
+  exit_transitions:
+    - virabhadrasana_ii
+    - trikonasana
+    - prasarita_padottanasana
+    - tadasana
+    - low_lunge
+
+media:
+  images:
+    - path: images/utthita_parsvakonasana/main.jpg
+      alt: Practitioner in Extended Side Angle with right knee bent, right forearm on thigh, left arm reaching overhead along the ear

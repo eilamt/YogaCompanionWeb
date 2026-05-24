@@ -1,0 +1,149 @@
+# ============================================================
+# Parsvottanasana — Pyramid Pose / Intense Side Stretch
+# Schema: v8
+# Canonical orientation: right foot forward, left foot back at
+# ~45 degrees with the heel planted. Hips squared to the front
+# of the mat. Torso folded forward over the front leg.
+# The renderer mirrors right ↔ left to produce the second-side display.
+# ============================================================
+
+meta:
+  id: parsvottanasana
+  version: 8
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: पार्श्वोत्तानासन
+    transliteration: Pārśvottānāsana
+  etymology:
+    - root: parsva
+      meaning: side / flank
+    - root: uttana
+      meaning: intense stretch
+    - root: asana
+      meaning: pose / posture
+  english_name: Pyramid Pose
+  pronunciation: parsh-voh-tah-NAH-suh-nuh
+
+classification:
+  primary_class: Forward Bend
+  sides: two
+  difficulty: intermediate
+  anatomy:
+    - Hamstring stretch (front leg)
+    - Hip flexion (front leg)
+    - Hip flexor stretch (back leg)
+    - Internal rotation (back hip squaring forward)
+    - Calf stretch (back leg)
+    - Spinal flexion
+    - Quadriceps engagement (front leg)
+
+practice:
+  entry_cues:
+    - from: low_lunge
+      steps:
+        - Spin your left heel down to a 45-degree angle, planting the whole foot
+        - Press into your right foot to straighten your right leg
+        - Square your hips firmly toward the front of the mat
+        - Stay folded forward over your right leg, hands on the floor or on blocks
+
+    - from: virabhadrasana_i
+      steps:
+        - Bring your hands to your hips
+        - Press into your right foot to straighten your right leg
+        - Square your hips even more firmly toward the front of the mat
+        - Hinge forward at your hips, folding your torso over your right leg
+
+    - from: high_lunge
+      steps:
+        - Spin your left heel down to a 45-degree angle, planting the whole foot
+        - Bring your hands to your hips
+        - Press into your right foot to straighten your right leg
+        - Square your hips firmly toward the front of the mat
+        - Hinge forward at your hips, folding your torso over your right leg
+
+  hold_exploration:
+    - label: Lengthen before deepening
+      steps:
+        - Lift your chest forward, lengthening your spine
+        - Reach the crown of your head toward your toes
+        - Then fold deeper, releasing your torso closer to your front leg
+
+    - label: Draw the front hip back
+      steps:
+        - Press your right hip back behind you
+        - Press your left hip forward toward the front of the mat
+        - Notice the deepening of the squared-hips work
+
+  exit_cues:
+    - to: prasarita_padottanasana
+      steps:
+        - Look down
+        - Walk your hands across the mat toward the long side
+        - Parallel your feet to face the side of the mat
+        - Fold forward between your feet
+
+    - to: low_lunge
+      steps:
+        - Bend your right knee deeply
+        - Spin your left heel up off the mat, coming high on the ball of the foot
+        - Stay folded over your right leg, hands framing your right foot
+
+    - to: parivrtta_trikonasana
+      steps:
+        - Stay folded forward
+        - Walk your left hand across to the outside of your right foot
+        - Sweep your right arm up to the sky
+        - Open your chest to the right into the twist
+
+  suggested_hold_duration: 5–8 breaths
+
+accessibility:
+  - condition: Tight hamstrings (can't reach the floor / fold deeply)
+    modifications:
+      - Place your hands on blocks at any height on either side of your front foot
+      - Keep a soft bend in your front knee
+      - Rest your hands on your front shin or thigh and fold less deeply
+
+  - condition: Can't square the hips
+    modifications:
+      - Shorten your stance front-to-back
+      - Widen your stance side-to-side (back foot off the same line as the front foot)
+      - Come up onto the ball of your back foot (where squaring is easier)
+
+  - condition: Back heel doesn't reach the ground
+    modifications:
+      - Place a folded blanket or wedge under your back heel
+      - Come up onto the ball of your back foot
+      - Shorten your stance front-to-back
+
+  - condition: Balance challenges
+    modifications:
+      - Practice with your hands on a wall in front of you
+      - Use blocks on either side of your front foot for a stable base
+      - Widen your stance side-to-side for a broader base of support
+
+variations:
+  - description: Bring your hands behind your back into reverse prayer (paschima namaskar)
+  - description: Clasp opposite elbows behind your back, framing the spine
+  - description: Clasp your hands behind your back and reach the bound hands over and forward
+  - description: Hold the outer edges of your front foot with both hands for a deeper fold
+
+relationships:
+  entry_transitions:
+    - low_lunge
+    - virabhadrasana_i
+    - high_lunge
+  exit_transitions:
+    - prasarita_padottanasana
+    - low_lunge
+    - parivrtta_trikonasana
+
+media:
+  images:
+    - path: images/parsvottanasana/main.jpg
+      alt: Pyramid Pose with torso folded forward over a straight front leg, back foot at 45 degrees

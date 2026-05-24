@@ -1,0 +1,88 @@
+# ============================================================
+# Asana — Tadasana (Mountain Pose)
+# Yoga Maya curriculum
+# ============================================================
+
+meta:
+  id: tadasana
+  version: 5
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-11
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: ताडासन
+    transliteration: Tāḍāsana
+  etymology:
+    - root: tada
+      meaning: mountain
+    - root: asana
+      meaning: pose / posture
+  english_name: Mountain Pose
+  pronunciation: tah-DAHS-uh-nuh
+
+classification:
+  primary_class: Neutral Standing Pose
+  secondary_class:
+  sides: one
+  anatomy:
+    - Spinal neutrality / mild axial extension
+    - Hip neutrality
+    - Knee extension (active)
+    - Quadriceps engagement
+    - Gluteal engagement (mild)
+    - Core engagement (mild)
+    - Erector spinae engagement (mild)
+    - Scapular retraction (gentle)
+
+practice:
+  entry_cues:
+    - from: Standing
+      steps:
+        - Bring your feet together
+        - Press the four corners of each foot evenly into the mat
+        - Lengthen up through the crown of your head
+        - Soften your shoulders down your back
+        - Let your arms rest by your sides, palms facing forward
+
+  hold_exploration:
+    - label: Find your center
+      steps:
+        - Shift your weight forward onto the balls of your feet
+        - Shift your weight back onto your heels
+        - Settle into the still point in between
+
+  exit_cues:
+    - to: Standing
+      steps:
+        - Soften your stance
+
+  suggested_hold_duration: 5 breaths
+
+accessibility:
+  - condition: Balance challenges
+    modifications:
+      - Stand with your feet hip-width apart for a wider, more stable base
+      - Stand near a wall or chair for light support if needed
+
+  - condition: Knee hyperextension
+    modifications:
+      - Micro-bend the knees to engage the quadriceps without locking
+
+variations:
+  - Urdhva Hastasana — lift your arms overhead, hook your thumbs, and spread your fingers
+  - Practice with your eyes closed for a proprioception challenge
+  - Rise up onto the balls of your feet and balance there
+
+relationships:
+  entry_transitions:
+    - Standing
+  exit_transitions:
+    - Standing
+
+media:
+  images:
+    - path: images/tadasana/main.jpg
+      alt: Practitioner in Tadasana standing at the top of the mat with feet together, arms by the sides, and spine lengthened

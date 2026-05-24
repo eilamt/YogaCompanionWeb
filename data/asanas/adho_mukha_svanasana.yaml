@@ -1,0 +1,155 @@
+# ============================================================
+# Asana — Adho Mukha Svanasana (Downward-Facing Dog)
+# Yoga Maya curriculum
+# ============================================================
+
+meta:
+  id: adho_mukha_svanasana
+  version: 6
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-11
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: अधोमुखश्वानासन
+    transliteration: Adho Mukha Śvānāsana
+  etymology:
+    - root: adho
+      meaning: downward
+    - root: mukha
+      meaning: face
+    - root: shvana
+      meaning: dog
+    - root: asana
+      meaning: pose / posture
+  english_name: Downward-Facing Dog
+  pronunciation: AH-doh MOO-kah shvah-NAHS-uh-nuh
+
+classification:
+  primary_class: Inversion
+  secondary_class: Forward Bend
+  sides: one
+  anatomy:
+    - Hip flexion (deep)
+    - Knee extension (both legs)
+    - Spinal axial extension (lengthening)
+    - Shoulder flexion (arms overhead, weight-bearing)
+    - Scapular upward rotation
+    - Wrist extension (weight-bearing)
+    - Ankle dorsiflexion (heels press toward the floor)
+    - Hamstring stretch
+    - Gastrocnemius and soleus stretch (calves)
+    - Latissimus dorsi stretch
+    - Pectoralis major stretch
+    - Erector spinae engagement
+    - Quadriceps engagement
+    - Serratus anterior engagement (stabilizing the scapulae)
+
+practice:
+  entry_cues:
+    - from: uttanasana
+      label: Walk back
+      steps:
+        - Plant your hands on the mat in front of you
+        - Walk your feet back to the back of the mat, one at a time
+        - Lift your hips up and back
+
+    - from: uttanasana
+      label: Jump back
+      steps:
+        - Plant your hands on the mat in front of you
+        - Bend your knees
+        - Jump your feet back to the back of the mat
+        - Settle your hips up and back
+
+    - from: plank
+      steps:
+        - Press into your hands
+        - Lift your hips up and back
+
+    - from: tabletop
+      steps:
+        - Tuck your toes
+        - Lift your hips up and back, straightening your legs
+
+  hold_exploration:
+    - label: Three-Legged Down Dog
+      steps:
+        - Lift your right leg up and back
+        - Reach through your right heel
+        - To deepen — bend your right knee and stack your right hip over your left
+        - Lower your right leg back down
+        - Lift your left leg up and back
+        - Reach through your left heel
+        - To deepen — bend your left knee and stack your left hip over your right
+        - Lower your left leg back down
+
+  exit_cues:
+    - to: uttanasana
+      steps:
+        - Bend your knees and lift your heels
+        - Look forward
+        - Walk or jump to the top of the mat
+        - Fold over your legs
+
+    - to: low_lunge
+      steps:
+        - Step your right foot forward between your hands
+
+    - to: plank
+      steps:
+        - Shift forward, bringing your shoulders over your wrists
+
+    - to: tabletop
+      steps:
+        - Lower your knees down to the mat
+
+  suggested_hold_duration: 5–10 breaths
+
+accessibility:
+  - condition: Wrist pain or weight-bearing limitation
+    modifications:
+      - Lower onto your forearms into Dolphin Pose
+      - Place a wedge under the heels of your hands
+      - Make fists and rest on the knuckles to keep the wrists neutral
+
+  - condition: Tight hamstrings
+    modifications:
+      - Bend your knees generously to prioritize length through the spine
+      - Keep your heels lifted off the floor
+
+  - condition: Tight shoulders or upper back
+    modifications:
+      - Bring your hands wider than shoulder-width apart
+      - Externally rotate your upper arms (turn the eyes of the elbows toward each other)
+
+  - condition: High blood pressure, glaucoma, or 3rd trimester pregnancy
+    modifications:
+      - Skip and do a supported forward fold with hands on a chair instead
+      - Skip and do Puppy Pose (Uttana Shishosana) instead
+
+variations:
+  - id: eka_pada_adho_mukha_svanasana
+    description: lift one leg up high into Three-Legged Down Dog (also explored in the hold)
+  - id: ardha_pincha_mayurasana
+    description: lower onto your forearms into Dolphin Pose
+  - description: pedal the feet — alternate bending one knee, then the other, to find the back of your calves
+  - description: reach one hand back to clasp the opposite ankle for a twist
+
+relationships:
+  entry_transitions:
+    - uttanasana
+    - plank
+    - tabletop
+  exit_transitions:
+    - uttanasana
+    - low_lunge
+    - plank
+    - tabletop
+
+media:
+  images:
+    - path: images/adho_mukha_svanasana/main.jpg
+      alt: Practitioner in Downward-Facing Dog with hands and feet on the mat, hips lifted high, body forming an inverted V shape

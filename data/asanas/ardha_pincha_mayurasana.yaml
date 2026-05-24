@@ -1,0 +1,111 @@
+# ============================================================
+# Asana — Ardha Pincha Mayurasana (Dolphin Pose)
+# Yoga Maya curriculum
+# ============================================================
+
+meta:
+  id: ardha_pincha_mayurasana
+  version: 6
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-11
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: अर्ध पिञ्छ मयूरासन
+    transliteration: Ardha Piñcha Mayūrāsana
+  etymology:
+    - root: ardha
+      meaning: half
+    - root: pincha
+      meaning: feather
+    - root: mayura
+      meaning: peacock
+    - root: asana
+      meaning: pose / posture
+  english_name: Dolphin Pose
+  pronunciation: AHR-duh PIN-chah may-yur-AHS-uh-nuh
+
+classification:
+  primary_class: Inversion
+  secondary_class: Forward Bend
+  sides: one
+  anatomy:
+    - Hip flexion (deep)
+    - Knee extension (both legs)
+    - Spinal axial extension (lengthening)
+    - Shoulder flexion (arms overhead, weight-bearing on forearms)
+    - Elbow flexion (~90°)
+    - Scapular upward rotation
+    - Ankle dorsiflexion (heels press toward the floor)
+    - Hamstring stretch
+    - Gastrocnemius and soleus stretch (calves)
+    - Latissimus dorsi stretch
+    - Pectoralis major stretch
+    - Anterior deltoid engagement
+    - Serratus anterior engagement (stabilizing the scapulae)
+    - Core engagement
+
+practice:
+  entry_cues:
+    - from: adho_mukha_svanasana
+      steps:
+        - Lower onto your forearms, one at a time
+        - Plant your forearms shoulder-width apart, palms down (or clasp your hands together)
+        - Press your forearms firmly into the mat
+        - Reach your hips up and back
+
+  hold_exploration:
+    - label: Walk in
+      steps:
+        - Walk your feet a few inches closer to your elbows
+        - Lift your hips higher up and over your shoulders
+        - Reach your chest back toward your thighs
+        - Walk your feet back out to return
+
+  exit_cues:
+    - to: adho_mukha_svanasana
+      steps:
+        - Lift one hand at a time back to a flat palm
+        - Press up into Downward-Facing Dog
+
+  suggested_hold_duration: 5–10 breaths
+
+accessibility:
+  - condition: Tight shoulders or upper back
+    modifications:
+      - Bring your elbows wider than shoulder-width
+      - Clasp your hands together to stabilize the shoulders
+      - Stay higher — don't try to walk the feet in
+
+  - condition: Tight hamstrings
+    modifications:
+      - Bend your knees generously to lift the hips higher
+      - Keep your heels lifted off the floor
+
+  - condition: Neck issues
+    modifications:
+      - Keep your gaze between your hands or on the mat
+      - Don't lift your head to look forward
+
+  - condition: Shoulder injury
+    modifications:
+      - Skip and do supported Down Dog with hands on blocks instead
+      - Stay in Puppy Pose (Uttana Shishosana) for a similar shoulder stretch with less weight
+
+variations:
+  - description: lift one leg up high for Three-Legged Dolphin, a deeper hip-flexor stretch and inversion prep
+  - description: walk your feet all the way in until your hips stack over your shoulders, preparing for forearm balance
+  - description: lift one foot off the mat and bring the knee toward the chest as a tuck-jump prep
+
+relationships:
+  entry_transitions:
+    - adho_mukha_svanasana
+  exit_transitions:
+    - adho_mukha_svanasana
+
+media:
+  images:
+    - path: images/ardha_pincha_mayurasana/main.jpg
+      alt: Practitioner in Dolphin Pose with forearms on the mat, hands clasped, hips lifted high, body forming an inverted V from forearms to feet

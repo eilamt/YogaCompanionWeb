@@ -1,0 +1,137 @@
+# ============================================================
+# Ardha Chandrasana — Half Moon Pose
+# Schema: v7
+# Canonical orientation: right foot grounded, left leg lifted.
+# The renderer mirrors right ↔ left to produce the second-side display.
+# ============================================================
+
+meta:
+  id: ardha_chandrasana
+  version: 7
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: अर्धचन्द्रासन
+    transliteration: Ardha Chandrāsana
+  etymology:
+    - root: ardha
+      meaning: half
+    - root: chandra
+      meaning: moon
+    - root: asana
+      meaning: pose / posture
+  english_name: Half Moon Pose
+  pronunciation: AR-duh chun-DRAH-suh-nuh
+
+classification:
+  primary_class: Open Standing Pose
+  sides: two
+  difficulty: intermediate
+  anatomy:
+    - Hip abduction (lifted leg)
+    - Hip external rotation (top hip)
+    - Hamstring stretch (standing leg)
+    - Hamstring and glute engagement (lifted leg)
+    - Quadriceps engagement (standing leg)
+    - Ankle stabilization (standing leg)
+    - Lateral spine stability
+    - Shoulder abduction (top arm)
+
+practice:
+  entry_cues:
+    - from: trikonasana
+      steps:
+        - Bend your right knee
+        - Walk your right hand forward, about a foot in front of your right foot, onto the floor or a block
+        - Shift your weight onto your right foot
+        - Lift your left leg up parallel to the floor
+        - Straighten your right leg
+        - Stack your left hip on top of your right hip
+        - Reach your left arm up to the sky
+
+    - from: virabhadrasana_ii
+      steps:
+        - Cartwheel your right hand down to the floor or a block, about a foot in front of your right foot
+        - Shift your weight onto your right foot
+        - Lift your left leg up parallel to the floor
+        - Straighten your right leg
+        - Stack your left hip on top of your right hip
+        - Reach your left arm up to the sky
+
+    - from: tadasana
+      level: advanced
+      steps:
+        - Shift your weight onto your right foot
+        - Hinge forward at the hips, reaching your right hand down toward the floor or a block in front of your right foot
+        - Float your left leg up behind you, parallel to the floor
+        - Open your left hip toward the sky
+        - Reach your left arm up to the sky
+
+  hold_exploration: []
+
+  exit_cues:
+    - to: low_lunge
+      steps:
+        - Look down
+        - Bend your right knee
+        - Land your left foot softly on the mat behind you, staying high on the ball of the foot
+        - Bring your hands down to frame your right foot, back knee lifted
+
+    - to: virabhadrasana_ii
+      steps:
+        - Bend your right knee
+        - Land your left foot on the mat behind you
+        - Rise up, opening your arms wide and turning your gaze over your right hand
+
+    - to: trikonasana
+      steps:
+        - Bend your right knee
+        - Land your left foot on the mat behind you
+        - Straighten your right leg
+        - Reach your right hand down to your shin, the floor, or a block, and your left arm up to the sky
+
+  suggested_hold_duration: 5–8 breaths
+
+accessibility:
+  - condition: Tight hamstrings (standing leg)
+    modifications:
+      - Place your bottom hand on a block (any height) instead of the floor
+      - Keep a soft bend in your standing knee
+      - Skip and do Trikonasana with a block under the bottom hand instead
+
+  - condition: Balance challenges
+    modifications:
+      - Practice with your back against a wall, lifted leg sliding up the wall
+      - Use a block under your bottom hand for a wider, more stable base
+      - Keep your gaze on the floor rather than reaching up
+
+  - condition: Tight top hip (can't stack)
+    modifications:
+      - Keep your lifted leg lower — at hip height or below
+      - Rest your top hand on your top hip rather than reaching up
+      - Soften your focus on stacking and prioritize length through both legs
+
+variations:
+  - id: ardha_chandra_chapasana
+    description: Sugarcane Pose — lift the back leg, bend the knee, and catch hold of the foot behind you, expanding the chest forward and up.
+  - id: baddha_ardha_chandrasana
+    description: Bound Half Moon — transition in from Baddha Utthita Parsvakonasana, maintaining the bind as you float up into the shape. Very advanced.
+
+relationships:
+  entry_transitions:
+    - trikonasana
+    - virabhadrasana_ii
+    - tadasana
+  exit_transitions:
+    - low_lunge
+    - virabhadrasana_ii
+    - trikonasana
+
+media:
+  images:
+    - path: images/ardha_chandrasana/main.jpg
+      alt: Half Moon Pose with bottom hand on a block, top arm reaching up

@@ -1,0 +1,158 @@
+# ============================================================
+# Asana — Virabhadrasana II (Warrior 2)
+# Yoga Maya curriculum, v7 schema
+#
+# Canonical orientation: right leg forward, right knee bent,
+# torso facing the long edge of the mat, right arm reaching
+# forward, left arm reaching back. Renderer mirrors for the
+# left side.
+# ============================================================
+
+meta:
+  id: virabhadrasana_ii
+  version: 7
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: वीरभद्रासन II
+    transliteration: Vīrabhadrāsana II
+  etymology:
+    - root: vira
+      meaning: hero / warrior
+    - root: bhadra
+      meaning: friend / auspicious
+    - root: asana
+      meaning: pose / posture
+  english_name: Warrior II
+  pronunciation: veer-uh-bah-DRAHS-uh-nuh
+
+classification:
+  primary_class: Open Standing Pose
+  secondary_class:
+  sides: two
+  difficulty: beginner
+  anatomy:
+    - Knee flexion (~90°, front leg)
+    - Knee extension (back leg)
+    - Hip flexion (front leg)
+    - Hip external rotation (front leg)
+    - Hip abduction (stance)
+    - Shoulder abduction (~90°, both arms)
+    - Quadriceps engagement (both legs)
+    - Gluteus medius engagement
+    - Deltoid engagement
+    - Erector spinae engagement
+    - Ankle dorsiflexion (front leg)
+
+practice:
+  entry_cues:
+    - from: low_lunge
+      steps:
+        - Spin your back heel down to the mat
+        - Press into your feet and rise up to standing
+        - Open your hips toward the long edge of the mat
+        - Open your arms wide, parallel to the floor — right arm forward, left arm back
+        - Gaze over your front fingertips
+
+    - from: tadasana
+      label: From standing center, facing the long edge
+      steps:
+        - Step your feet wide apart, about a leg's length
+        - Turn your right foot to point toward the front of the mat
+        - Angle your left foot slightly in
+        - Bend your right knee to 90°, tracking over the second toe
+        - Open your arms wide, parallel to the floor
+        - Gaze over your front fingertips
+
+  hold_exploration:
+    - label: Track the front knee
+      steps:
+        - Check your front knee — it tracks directly over your second toe
+        - Press the outer edge of your back foot down
+        - Engage your inner thigh of the front leg
+
+    - label: Reach long through both arms
+      steps:
+        - Reach actively forward through your front fingertips
+        - Reach actively back through your back fingertips
+        - Drop your shoulders away from your ears
+
+  exit_cues:
+    - to: utthita_parsvakonasana
+      steps:
+        - Keep your front knee at 90°
+        - Reach your front arm forward and tip your torso over your front thigh
+        - Bring your front forearm to your thigh, or your hand to the floor outside the foot
+        - Sweep your back arm overhead alongside your ear
+
+    - to: prasarita_padottanasana
+      steps:
+        - Press into your feet to straighten the front leg
+        - Spin both feet to parallel, toes facing the long edge of the mat
+        - Hinge from your hips and fold forward, hands to the floor
+
+    - to: trikonasana
+      steps:
+        - Straighten your front leg
+        - Reach your front arm forward, hinging at the hip
+        - Tip from the hip and lower your front hand to your shin, the floor, or a block
+        - Stack your back arm to the sky
+
+    - to: low_lunge
+      steps:
+        - Cartwheel both hands down to frame your front foot
+        - Lift your back heel and straighten the back leg
+        - Look forward, back knee lifted
+
+    - to: tadasana
+      steps:
+        - Press into your feet to straighten the front leg
+        - Lower your arms
+        - Step your back foot forward to meet the front
+
+  suggested_hold_duration: 5–8 breaths
+
+accessibility:
+  - condition: Tight hips
+    modifications:
+      - Shorten the stance — feet closer together
+      - Don't bend the front knee as deeply
+      - Rest hands on hips rather than reaching the arms out
+
+  - condition: Knee sensitivity
+    modifications:
+      - Keep the front knee directly over the ankle — don't push past
+      - Use a chair under the back of the front thigh for support
+      - Shorten the stance to reduce load on the knee
+
+  - condition: Shoulder fatigue
+    modifications:
+      - Rest your hands on your hips instead of extending the arms
+      - Take breaks lowering the arms between breaths
+      - Hold for fewer breaths
+
+variations:
+  - id: peaceful_warrior
+    description: Peaceful Warrior — reach the front arm overhead and back, bottom hand sliding down the back leg
+  - id: baddha_virabhadrasana
+    description: Humble Warrior — interlace the hands behind the back, bow the torso inside the front thigh
+
+relationships:
+  entry_transitions:
+    - low_lunge
+    - tadasana
+  exit_transitions:
+    - utthita_parsvakonasana
+    - prasarita_padottanasana
+    - trikonasana
+    - low_lunge
+    - tadasana
+
+media:
+  images:
+    - path: images/virabhadrasana_ii/main.jpg
+      alt: Practitioner in Warrior II with right leg forward, knee bent, arms parallel to the floor, gaze over front fingertips

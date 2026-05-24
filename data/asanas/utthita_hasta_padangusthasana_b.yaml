@@ -1,0 +1,135 @@
+# ============================================================
+# Utthita Hasta Padangusthasana B — Extended Hand-to-Big-Toe Pose,
+# leg to the side
+# Schema: v7
+# Canonical orientation: standing on the left leg, right leg
+# extended out to the right side, right hand holding the right
+# big toe, gaze turned over the left shoulder.
+# The renderer mirrors right ↔ left to produce the second-side display.
+# ============================================================
+
+meta:
+  id: utthita_hasta_padangusthasana_b
+  version: 7
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: उत्थित हस्त पादाङ्गुष्ठासन B
+    transliteration: Utthita Hasta Pādāṅguṣṭhāsana B
+  etymology:
+    - root: utthita
+      meaning: extended / raised
+    - root: hasta
+      meaning: hand
+    - root: pada
+      meaning: foot
+    - root: angushtha
+      meaning: big toe
+    - root: asana
+      meaning: pose / posture
+  english_name: Extended Hand-to-Big-Toe Pose B
+  pronunciation: oot-THEE-tuh HAH-stuh pah-dahn-goosh-TAH-suh-nuh
+
+classification:
+  primary_class: Open Standing Pose
+  sides: two
+  difficulty: intermediate
+  anatomy:
+    - Hip external rotation (lifted leg)
+    - Hip abduction (lifted leg)
+    - Adductor stretch (lifted leg)
+    - Hamstring stretch (lifted leg)
+    - Quadriceps engagement (standing leg)
+    - Hip stabilization (standing leg)
+    - Ankle stabilization (standing leg)
+    - Cervical rotation (gaze to opposite side)
+
+practice:
+  entry_cues:
+    - from: tadasana
+      steps:
+        - Shift your weight onto your left foot
+        - Bend your right knee and lift it up in front of you
+        - Hook your right big toe with the first two fingers of your right hand (yogi toe lock)
+        - Extend your right leg forward
+        - Open your right leg out to the right side
+        - Turn your gaze over your left shoulder
+
+    - from: vrksasana
+      steps:
+        - Release the sole of your right foot from your inner thigh
+        - Bring your right knee forward and up in front of you
+        - Hook your right big toe with the first two fingers of your right hand
+        - Extend your right leg forward, then open it out to the right
+        - Turn your gaze over your left shoulder
+
+  hold_exploration:
+    - label: Lift and open
+      steps:
+        - Press the inner edge of your right foot up toward the ceiling
+        - Lift your right leg a little higher
+        - Lengthen your spine, lifting up out of your standing hip
+
+  exit_cues:
+    - to: tadasana
+      steps:
+        - Turn your gaze forward
+        - Bring your right leg back to center
+        - Release the yogi toe lock
+        - Lower your right foot back down to the mat
+
+    - to: vrksasana
+      steps:
+        - Turn your gaze forward
+        - Bring your right leg back to center
+        - Bend your right knee, drawing it in toward your chest
+        - Release the yogi toe lock
+        - Place the sole of your right foot on your left inner thigh
+        - Prayer your hands at your heart
+
+    - to: utthita_hasta_padangusthasana
+      steps:
+        - Turn your gaze forward
+        - Keep the yogi toe lock
+        - Bring your right leg back to the front, square your hips
+
+  suggested_hold_duration: 5 breaths
+
+accessibility:
+  - condition: Tight hamstrings or adductors (can't fully extend the leg to the side)
+    modifications:
+      - Loop a strap around your right foot and hold the strap with your right hand
+      - Keep a soft bend in your lifted knee
+      - Hold the back of your thigh instead of catching the big toe
+
+  - condition: Tight hip rotators (can't open the leg out)
+    modifications:
+      - Open the leg only as far as your hip allows — don't force it
+      - Keep the lifted leg lower, at hip height or below
+      - Skip and do Utthita Hasta Padangusthasana A (leg forward) instead
+
+  - condition: Balance challenges
+    modifications:
+      - Practice with your back against a wall
+      - Keep your gaze fixed forward rather than turning it over the shoulder
+      - Hold the lifted leg lower for a more stable base
+
+variations: []
+
+relationships:
+  entry_transitions:
+    - tadasana
+    - vrksasana
+  exit_transitions:
+    - tadasana
+    - vrksasana
+    - utthita_hasta_padangusthasana
+
+media:
+  images:
+    - path: images/utthita_hasta_padangusthasana_b/main.jpg
+      alt: Extended Hand-to-Big-Toe Pose B with right leg opened out to the side

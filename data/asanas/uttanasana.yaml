@@ -1,0 +1,143 @@
+# ============================================================
+# Asana — Uttanasana (Standing Forward Fold)
+# Yoga Maya curriculum, v6 schema
+# ============================================================
+
+meta:
+  id: uttanasana
+  version: 6
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari: उत्तानासन
+    transliteration: Uttānāsana
+  etymology:
+    - root: ut
+      meaning: intense / up / outward
+    - root: tana
+      meaning: to stretch / extend
+    - root: asana
+      meaning: pose / posture
+  english_name: Standing Forward Fold
+  pronunciation: oot-tahn-AHS-uh-nuh
+
+classification:
+  primary_class: Forward Bend
+  secondary_class:
+  sides: one
+  anatomy:
+    - Hamstring stretch
+    - Calf stretch (gastrocnemius, soleus)
+    - Hip flexion
+    - Spinal flexion
+    - Erector spinae lengthening
+
+practice:
+  entry_cues:
+    - from: urdhva_hastasana
+      steps:
+        - Soften your knees
+        - Hinge from your hips
+        - Swan-dive your arms out wide
+        - Fold over your legs
+
+    - from: adho_mukha_svanasana
+      steps:
+        - Bend your knees, lift your heels
+        - Look forward between your hands
+        - Walk or jump to the top of the mat
+        - Let your head hang heavy
+
+    - from: low_lunge
+      steps:
+        - Step your back foot forward to meet the front
+        - Parallel your feet
+        - Fold over both legs
+
+  hold_exploration:
+    - label: Ragdoll
+      steps:
+        - Grab opposite elbows
+        - Let your head hang heavy
+        - Sway gently from side to side
+
+    - label: Heavy head
+      steps:
+        - Release your hands to the mat or to your shins
+        - Let the crown of your head drip toward the floor
+        - Shake your head yes, then no
+
+    - label: Active fold
+      steps:
+        - Plant your palms flat on the mat
+        - Press your fingertips down and draw your forehead toward your shins
+        - Lift your sitting bones to the sky
+
+  exit_cues:
+    - to: urdhva_hastasana
+      steps:
+        - Soft knees, long spine
+        - Sweep your arms out wide
+        - Circle your arms up to the sky
+
+    - to: adho_mukha_svanasana
+      steps:
+        - Plant your hands on the mat
+        - Step or float back to plank
+        - Press back into Down Dog
+
+    - to: low_lunge
+      steps:
+        - Step your right foot back to the back of the mat
+        - Keep your back leg straight, back knee lifted
+        - Frame your front foot with both hands
+
+  suggested_hold_duration: 5–8 breaths
+
+accessibility:
+  - condition: Tight hamstrings
+    modifications:
+      - Bend your knees generously — let your belly rest on your thighs
+      - Place blocks under your hands
+      - Skip and do Ardha Uttanasana instead
+
+  - condition: Low back sensitivity
+    modifications:
+      - Keep a soft bend in the knees
+      - Rest your hands on your shins rather than the floor
+      - Skip and do Ardha Uttanasana with hands at the wall instead
+
+  - condition: High blood pressure or dizziness when inverting
+    modifications:
+      - Keep the head above the heart — fold only halfway
+      - Use a chair: rest forearms on the seat
+      - Skip and do Ardha Uttanasana instead
+
+variations:
+  - id: padangusthasana
+    description: Yogi toe-lock — hook the first two fingers around the big toes, then half-lift on an inhale before folding again
+  - id: padahastasana
+    description: Palms under the feet, fingertips facing the heels, then half-lift on an inhale before folding again
+  - id: ardha_uttanasana
+    description: Half-lift — fingertips to the floor or hands to shins, spine long and parallel to the mat
+
+relationships:
+  entry_transitions:
+    - urdhva_hastasana
+    - adho_mukha_svanasana
+    - low_lunge
+    - tadasana
+  exit_transitions:
+    - urdhva_hastasana
+    - adho_mukha_svanasana
+    - low_lunge
+    - chaturanga_dandasana
+
+media:
+  images:
+    - path: images/uttanasana/main.jpg
+      alt: Practitioner in Uttanasana with hands on the floor and head heavy

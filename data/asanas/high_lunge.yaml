@@ -1,0 +1,123 @@
+# ============================================================
+# High Lunge
+# Schema: v7
+# Canonical orientation: right leg forward, left leg extended back
+# high on the ball of the foot.
+# The renderer mirrors right ↔ left to produce the second-side display.
+# ============================================================
+
+meta:
+  id: high_lunge
+  version: 7
+  status: draft
+  author: Tamar
+  last_reviewed: 2026-05-13
+  source: Yoga Maya curriculum
+
+identity:
+  sanskrit_name:
+    devanagari:
+    transliteration:
+  etymology: []
+  english_name: High Lunge
+  pronunciation:
+
+classification:
+  primary_class: Neutral Standing Pose
+  sides: two
+  difficulty: beginner
+  anatomy:
+    - Hip flexion (front leg)
+    - Knee flexion (front leg)
+    - Hip extension (back leg)
+    - Hip flexor stretch (back leg)
+    - Quadriceps engagement (front leg)
+    - Quadriceps engagement (back leg)
+    - Shoulder flexion (when arms overhead)
+
+practice:
+  entry_cues:
+    - from: urdhva_hastasana
+      steps:
+        - Step your left foot back, landing high on the ball of the foot
+        - Bend deeply through your right knee
+        - Keep your arms reaching overhead
+
+    - from: low_lunge
+      steps:
+        - Press into your hands and rise up, sweeping your arms overhead
+        - Stay high on the ball of your left foot, back knee lifted
+        - Bend deeply through your right knee
+
+    - from: virabhadrasana_i
+      steps:
+        - Spin your left heel up off the mat
+        - Come high on the ball of your left foot
+        - Keep your right knee bent deeply
+        - Arms stay reaching overhead
+
+  hold_exploration:
+    - label: Engage the back leg
+      steps:
+        - Press strongly back through your left heel
+        - Lift your left thigh up toward the ceiling
+        - Hug your inner thighs toward each other
+
+  exit_cues:
+    - to: virabhadrasana_i
+      steps:
+        - Spin your left heel down to a 45-degree angle, planting the whole foot
+        - Square your hips toward the front of the mat
+        - Keep your right knee bent deeply, arms reaching overhead
+
+    - to: low_lunge
+      steps:
+        - Bring your hands down to the floor, framing your right foot
+        - Stay high on the ball of your left foot, back knee lifted
+        - Keep your right knee bent deeply
+
+    - to: virabhadrasana_iii
+      steps:
+        - Shift your weight forward onto your right foot
+        - Lift your left leg up parallel to the floor
+        - Straighten your right leg
+        - Reach your arms forward, parallel to the floor
+
+  suggested_hold_duration: 5 breaths
+
+accessibility:
+  - condition: Balance challenges
+    modifications:
+      - Lower your back knee to the mat (becomes Anjaneyasana)
+      - Bring your hands to blocks on either side of your front foot
+      - Shorten your stance for a more stable base
+
+  - condition: Tight hip flexors (can't sink hips)
+    modifications:
+      - Soften the depth of the front knee bend
+      - Lower your back knee to the mat for a deeper hip flexor stretch
+      - Stay lifted out of the pose rather than sinking down
+
+  - condition: Front knee discomfort
+    modifications:
+      - Track your front knee over your ankle, not past your toes
+      - Widen your stance side-to-side (heels off the same line) for more stability
+      - Skip and do Anjaneyasana with the back knee down instead
+
+variations: []
+
+relationships:
+  entry_transitions:
+    - urdhva_hastasana
+    - low_lunge
+    - virabhadrasana_i
+  exit_transitions:
+    - virabhadrasana_i
+    - low_lunge
+    - virabhadrasana_iii
+    - revolved_high_lunge
+
+media:
+  images:
+    - path: images/high_lunge/main.jpg
+      alt: High Lunge with arms reaching overhead, back leg extended high on the ball of the foot
