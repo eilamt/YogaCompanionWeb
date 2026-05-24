@@ -22,7 +22,7 @@ meta:
   status: draft          # draft | reviewed | published
   author:                # contributor name
   last_reviewed:         # YYYY-MM-DD
-  source: Yoga Maya curriculum
+  source: Yoga curriculum
 
 identity:
   # At least one of `sanskrit_name` or `english_name` must be populated.
